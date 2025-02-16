@@ -3221,7 +3221,7 @@ local function TFUQ_fake_script() -- Fake Script: StarterGui.project twilight.up
 
 	local text = script.Parent
 	local commands = text.Parent:GetChildren()
-	local count = #commands - 5
+	local count = #commands - 4
 
 	text.Text = count .. " sounds"
 end
