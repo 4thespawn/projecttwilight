@@ -3280,7 +3280,6 @@ local function ZXFQWAN_fake_script() -- Fake Script: StarterGui.project twilight
 					playerNameLabel.TextColor3 = Color3.new(1, 1, 1)
 					playerNameLabel.TextScaled = true
 				end
-			end
 	end
 end
 local function VAOR_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.6GravityFrame.TextButton.LocalScript
