@@ -4,7 +4,7 @@ some roblox script thing, lol
 
 # created with
 - roblox studio
-- frstee's gui to lua converter
+- rd2glory's gui to lua plugin
   
 # tested with
 - [solara](https://getsolara.dev/)
