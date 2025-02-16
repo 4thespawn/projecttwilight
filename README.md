@@ -5,7 +5,7 @@ some roblox script thing, lol
 # created with
 - roblox studio
 - frstee's gui to lua converter
-- 
+  
 # tested with
 - [solara](https://getsolara.dev/)
 - [xeno](https://discord.gg/getxeno)
