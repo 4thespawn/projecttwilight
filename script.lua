@@ -144,38 +144,64 @@ local Converted = {
 	["_LocalScript25"] = Instance.new("LocalScript");
 	["_TextButton17"] = Instance.new("TextButton");
 	["_LocalScript26"] = Instance.new("LocalScript");
+	["_8908228901"] = Instance.new("ScrollingFrame");
+	["_UICorner31"] = Instance.new("UICorner");
+	["_UIListLayout3"] = Instance.new("UIListLayout");
+	["_0Title2"] = Instance.new("TextLabel");
+	["_LocalScript27"] = Instance.new("LocalScript");
+	["_1SharkESPFrame"] = Instance.new("Frame");
+	["_UICorner32"] = Instance.new("UICorner");
+	["_TextButton18"] = Instance.new("TextButton");
+	["_LocalScript28"] = Instance.new("LocalScript");
+	["_TextButton19"] = Instance.new("TextButton");
+	["_LocalScript29"] = Instance.new("LocalScript");
+	["_19006647835"] = Instance.new("ScrollingFrame");
+	["_UICorner33"] = Instance.new("UICorner");
+	["_UIListLayout4"] = Instance.new("UIListLayout");
+	["_6GravityFrame2"] = Instance.new("Frame");
+	["_UICorner34"] = Instance.new("UICorner");
+	["_TextBox12"] = Instance.new("TextBox");
+	["_TextButton20"] = Instance.new("TextButton");
+	["_LocalScript30"] = Instance.new("LocalScript");
+	["_7ViewFrame2"] = Instance.new("Frame");
+	["_UICorner35"] = Instance.new("UICorner");
+	["_TextBox13"] = Instance.new("TextBox");
+	["_TextButton21"] = Instance.new("TextButton");
+	["_LocalScript31"] = Instance.new("LocalScript");
+	["_0Title3"] = Instance.new("TextLabel");
+	["_LocalScript32"] = Instance.new("LocalScript");
 	["_settings"] = Instance.new("Frame");
 	["_ScrollingFrame"] = Instance.new("ScrollingFrame");
-	["_UICorner31"] = Instance.new("UICorner");
+	["_UICorner36"] = Instance.new("UICorner");
 	["_0title"] = Instance.new("TextLabel");
-	["_LocalScript27"] = Instance.new("LocalScript");
-	["_UIListLayout3"] = Instance.new("UIListLayout");
+	["_LocalScript33"] = Instance.new("LocalScript");
+	["_UIListLayout5"] = Instance.new("UIListLayout");
 	["_5blursize"] = Instance.new("Frame");
 	["_X-Line"] = Instance.new("Frame");
-	["_LocalScript28"] = Instance.new("LocalScript");
-	["_TextButton18"] = Instance.new("TextButton");
-	["_UICorner32"] = Instance.new("UICorner");
+	["_LocalScript34"] = Instance.new("LocalScript");
+	["_TextButton22"] = Instance.new("TextButton");
+	["_UICorner37"] = Instance.new("UICorner");
 	["_TextLabel"] = Instance.new("TextLabel");
-	["_UICorner33"] = Instance.new("UICorner");
+	["_UICorner38"] = Instance.new("UICorner");
 	["_3rejoin"] = Instance.new("TextButton");
-	["_UICorner34"] = Instance.new("UICorner");
-	["_LocalScript29"] = Instance.new("LocalScript");
+	["_UICorner39"] = Instance.new("UICorner");
+	["_LocalScript35"] = Instance.new("LocalScript");
 	["_2reload"] = Instance.new("TextButton");
-	["_UICorner35"] = Instance.new("UICorner");
-	["_LocalScript30"] = Instance.new("LocalScript");
+	["_UICorner40"] = Instance.new("UICorner");
+	["_LocalScript36"] = Instance.new("LocalScript");
 	["_1unload"] = Instance.new("TextButton");
-	["_UICorner36"] = Instance.new("UICorner");
-	["_LocalScript31"] = Instance.new("LocalScript");
+	["_UICorner41"] = Instance.new("UICorner");
+	["_LocalScript37"] = Instance.new("LocalScript");
 	["_info"] = Instance.new("Frame");
 	["_playerinfohandler"] = Instance.new("LocalScript");
 	["_avatar"] = Instance.new("ImageLabel");
-	["_UICorner37"] = Instance.new("UICorner");
+	["_UICorner42"] = Instance.new("UICorner");
 	["_displayname"] = Instance.new("TextLabel");
 	["_role"] = Instance.new("TextLabel");
 	["_username"] = Instance.new("TextLabel");
 	["_userid"] = Instance.new("TextLabel");
 	["_icon"] = Instance.new("ImageLabel");
-	["_UICorner38"] = Instance.new("UICorner");
+	["_UICorner43"] = Instance.new("UICorner");
 	["_gamename"] = Instance.new("TextLabel");
 	["_creator"] = Instance.new("TextLabel");
 	["_servertype"] = Instance.new("TextLabel");
@@ -185,39 +211,39 @@ local Converted = {
 	["_handler"] = Instance.new("LocalScript");
 	["_music"] = Instance.new("Frame");
 	["_ScrollingFrame1"] = Instance.new("ScrollingFrame");
-	["_UICorner39"] = Instance.new("UICorner");
-	["_UIListLayout4"] = Instance.new("UIListLayout");
-	["_0Title2"] = Instance.new("TextLabel");
-	["_LocalScript32"] = Instance.new("LocalScript");
+	["_UICorner44"] = Instance.new("UICorner");
+	["_UIListLayout6"] = Instance.new("UIListLayout");
+	["_0Title4"] = Instance.new("TextLabel");
+	["_LocalScript38"] = Instance.new("LocalScript");
 	["_2RainingTacos"] = Instance.new("Frame");
-	["_UICorner40"] = Instance.new("UICorner");
-	["_TextButton19"] = Instance.new("TextButton");
-	["_LocalScript33"] = Instance.new("LocalScript");
-	["_UICorner41"] = Instance.new("UICorner");
+	["_UICorner45"] = Instance.new("UICorner");
+	["_TextButton23"] = Instance.new("TextButton");
+	["_LocalScript39"] = Instance.new("LocalScript");
+	["_UICorner46"] = Instance.new("UICorner");
 	["_title1"] = Instance.new("TextLabel");
 	["_1Stop"] = Instance.new("Frame");
-	["_UICorner42"] = Instance.new("UICorner");
-	["_TextButton20"] = Instance.new("TextButton");
-	["_LocalScript34"] = Instance.new("LocalScript");
-	["_UICorner43"] = Instance.new("UICorner");
+	["_UICorner47"] = Instance.new("UICorner");
+	["_TextButton24"] = Instance.new("TextButton");
+	["_LocalScript40"] = Instance.new("LocalScript");
+	["_UICorner48"] = Instance.new("UICorner");
 	["_3RelaxedScene"] = Instance.new("Frame");
-	["_UICorner44"] = Instance.new("UICorner");
-	["_TextButton21"] = Instance.new("TextButton");
-	["_LocalScript35"] = Instance.new("LocalScript");
-	["_UICorner45"] = Instance.new("UICorner");
+	["_UICorner49"] = Instance.new("UICorner");
+	["_TextButton25"] = Instance.new("TextButton");
+	["_LocalScript41"] = Instance.new("LocalScript");
+	["_UICorner50"] = Instance.new("UICorner");
 	["_title2"] = Instance.new("TextLabel");
 	["_4AllDropping8BitBeats"] = Instance.new("Frame");
-	["_UICorner46"] = Instance.new("UICorner");
-	["_TextButton22"] = Instance.new("TextButton");
-	["_LocalScript36"] = Instance.new("LocalScript");
-	["_UICorner47"] = Instance.new("UICorner");
+	["_UICorner51"] = Instance.new("UICorner");
+	["_TextButton26"] = Instance.new("TextButton");
+	["_LocalScript42"] = Instance.new("LocalScript");
+	["_UICorner52"] = Instance.new("UICorner");
 	["_title3"] = Instance.new("TextLabel");
 	["_soundmenu"] = Instance.new("Frame");
-	["_UICorner48"] = Instance.new("UICorner");
+	["_UICorner53"] = Instance.new("UICorner");
 	["_title4"] = Instance.new("TextLabel");
 	["_duration"] = Instance.new("TextLabel");
-	["_LocalScript37"] = Instance.new("LocalScript");
-	["_LocalScript38"] = Instance.new("LocalScript");
+	["_LocalScript43"] = Instance.new("LocalScript");
+	["_LocalScript44"] = Instance.new("LocalScript");
 }
 
 -- Properties:
@@ -386,6 +412,7 @@ Converted["_home"].BackgroundTransparency = 1
 Converted["_home"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_home"].BorderSizePixel = 0
 Converted["_home"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_home"].Visible = false
 Converted["_home"].Name = "home"
 Converted["_home"].Parent = Converted["_uppermenu"]
 
@@ -439,7 +466,6 @@ Converted["_site"].Font = Enum.Font.FredokaOne
 Converted["_site"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_site"].PlaceholderText = "https://kebabhub.kprojects.uk/"
 Converted["_site"].RichText = true
-Converted["_site"].SelectionStart = 1
 Converted["_site"].Text = "https://github.com/kprjcts/projecttwilight"
 Converted["_site"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_site"].TextScaled = true
@@ -462,7 +488,6 @@ Converted["_commands"].BackgroundTransparency = 1
 Converted["_commands"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_commands"].BorderSizePixel = 0
 Converted["_commands"].Size = UDim2.new(1, 0, 1, 0)
-Converted["_commands"].Visible = false
 Converted["_commands"].Name = "commands"
 Converted["_commands"].Parent = Converted["_uppermenu"]
 
@@ -1305,6 +1330,223 @@ Converted["_TextButton17"].BorderSizePixel = 0
 Converted["_TextButton17"].Size = UDim2.new(0.5, 0, 1, 0)
 Converted["_TextButton17"].Parent = Converted["_1ESPFrame1"]
 
+Converted["_8908228901"].CanvasSize = UDim2.new(0, 0, 5, 0)
+Converted["_8908228901"].HorizontalScrollBarInset = Enum.ScrollBarInset.Always
+Converted["_8908228901"].ScrollBarThickness = 8
+Converted["_8908228901"].ScrollingDirection = Enum.ScrollingDirection.Y
+Converted["_8908228901"].VerticalScrollBarInset = Enum.ScrollBarInset.Always
+Converted["_8908228901"].Active = true
+Converted["_8908228901"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_8908228901"].BackgroundTransparency = 1
+Converted["_8908228901"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_8908228901"].BorderSizePixel = 0
+Converted["_8908228901"].Position = UDim2.new(0, 0, 0.0873895362, 0)
+Converted["_8908228901"].Size = UDim2.new(1, 0, 0.912610471, 0)
+Converted["_8908228901"].Visible = false
+Converted["_8908228901"].Name = "8908228901"
+Converted["_8908228901"].Parent = Converted["_gamespecific1"]
+
+Converted["_UICorner31"].CornerRadius = UDim.new(0, 25)
+Converted["_UICorner31"].Parent = Converted["_8908228901"]
+
+Converted["_UIListLayout3"].HorizontalFlex = Enum.UIFlexAlignment.Fill
+Converted["_UIListLayout3"].Padding = UDim.new(0, 8)
+Converted["_UIListLayout3"].Wraps = true
+Converted["_UIListLayout3"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIListLayout3"].Parent = Converted["_8908228901"]
+
+Converted["_0Title2"].Font = Enum.Font.FredokaOne
+Converted["_0Title2"].RichText = true
+Converted["_0Title2"].Text = "0 commands for"
+Converted["_0Title2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_0Title2"].TextScaled = true
+Converted["_0Title2"].TextSize = 14
+Converted["_0Title2"].TextStrokeTransparency = 0
+Converted["_0Title2"].TextWrapped = true
+Converted["_0Title2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_0Title2"].BackgroundTransparency = 0.9900000095367432
+Converted["_0Title2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_0Title2"].BorderSizePixel = 0
+Converted["_0Title2"].Position = UDim2.new(0.297489256, 0, 9.51415799e-08, 0)
+Converted["_0Title2"].Size = UDim2.new(0, 666, 0, 37)
+Converted["_0Title2"].Name = "0Title"
+Converted["_0Title2"].Parent = Converted["_8908228901"]
+
+Converted["_1SharkESPFrame"].BackgroundColor3 = Color3.fromRGB(81.00000277161598, 255, 62.00000010430813)
+Converted["_1SharkESPFrame"].BackgroundTransparency = 1
+Converted["_1SharkESPFrame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_1SharkESPFrame"].BorderSizePixel = 0
+Converted["_1SharkESPFrame"].ClipsDescendants = true
+Converted["_1SharkESPFrame"].Position = UDim2.new(0.296943277, 0, 0.0809149519, 0)
+Converted["_1SharkESPFrame"].Size = UDim2.new(0, 666, 0, 37)
+Converted["_1SharkESPFrame"].Name = "1SharkESPFrame"
+Converted["_1SharkESPFrame"].Parent = Converted["_8908228901"]
+
+Converted["_UICorner32"].Parent = Converted["_1SharkESPFrame"]
+
+Converted["_TextButton18"].Font = Enum.Font.FredokaOne
+Converted["_TextButton18"].RichText = true
+Converted["_TextButton18"].Text = "remove esp"
+Converted["_TextButton18"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton18"].TextScaled = true
+Converted["_TextButton18"].TextSize = 14
+Converted["_TextButton18"].TextStrokeTransparency = 0
+Converted["_TextButton18"].TextWrapped = true
+Converted["_TextButton18"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton18"].BackgroundTransparency = 0.5
+Converted["_TextButton18"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton18"].BorderSizePixel = 0
+Converted["_TextButton18"].Position = UDim2.new(0.5, 0, 0, 0)
+Converted["_TextButton18"].Size = UDim2.new(0.5, 0, 1, 0)
+Converted["_TextButton18"].Parent = Converted["_1SharkESPFrame"]
+
+Converted["_TextButton19"].Font = Enum.Font.FredokaOne
+Converted["_TextButton19"].RichText = true
+Converted["_TextButton19"].Text = "add esp"
+Converted["_TextButton19"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton19"].TextScaled = true
+Converted["_TextButton19"].TextSize = 14
+Converted["_TextButton19"].TextStrokeTransparency = 0
+Converted["_TextButton19"].TextWrapped = true
+Converted["_TextButton19"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton19"].BackgroundTransparency = 0.5
+Converted["_TextButton19"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton19"].BorderSizePixel = 0
+Converted["_TextButton19"].Size = UDim2.new(0.5, 0, 1, 0)
+Converted["_TextButton19"].Parent = Converted["_1SharkESPFrame"]
+
+Converted["_19006647835"].CanvasSize = UDim2.new(0, 0, 5, 0)
+Converted["_19006647835"].HorizontalScrollBarInset = Enum.ScrollBarInset.Always
+Converted["_19006647835"].ScrollBarThickness = 8
+Converted["_19006647835"].ScrollingDirection = Enum.ScrollingDirection.Y
+Converted["_19006647835"].VerticalScrollBarInset = Enum.ScrollBarInset.Always
+Converted["_19006647835"].Active = true
+Converted["_19006647835"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_19006647835"].BackgroundTransparency = 1
+Converted["_19006647835"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_19006647835"].BorderSizePixel = 0
+Converted["_19006647835"].Position = UDim2.new(0, 0, 0.0873895362, 0)
+Converted["_19006647835"].Size = UDim2.new(1, 0, 0.912610471, 0)
+Converted["_19006647835"].Visible = false
+Converted["_19006647835"].Name = "19006647835"
+Converted["_19006647835"].Parent = Converted["_gamespecific1"]
+
+Converted["_UICorner33"].CornerRadius = UDim.new(0, 25)
+Converted["_UICorner33"].Parent = Converted["_19006647835"]
+
+Converted["_UIListLayout4"].HorizontalFlex = Enum.UIFlexAlignment.Fill
+Converted["_UIListLayout4"].Padding = UDim.new(0, 8)
+Converted["_UIListLayout4"].Wraps = true
+Converted["_UIListLayout4"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIListLayout4"].Parent = Converted["_19006647835"]
+
+Converted["_6GravityFrame2"].BackgroundColor3 = Color3.fromRGB(61.00000016391277, 239.00000095367432, 255)
+Converted["_6GravityFrame2"].BackgroundTransparency = 1
+Converted["_6GravityFrame2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_6GravityFrame2"].BorderSizePixel = 0
+Converted["_6GravityFrame2"].ClipsDescendants = true
+Converted["_6GravityFrame2"].Position = UDim2.new(0.296943277, 0, 0.485489726, 0)
+Converted["_6GravityFrame2"].Size = UDim2.new(0, 666, 0, 37)
+Converted["_6GravityFrame2"].Name = "6GravityFrame"
+Converted["_6GravityFrame2"].Parent = Converted["_19006647835"]
+
+Converted["_UICorner34"].Parent = Converted["_6GravityFrame2"]
+
+Converted["_TextBox12"].Font = Enum.Font.FredokaOne
+Converted["_TextBox12"].PlaceholderColor3 = Color3.fromRGB(181.0000044107437, 181.0000044107437, 181.0000044107437)
+Converted["_TextBox12"].PlaceholderText = "gravity"
+Converted["_TextBox12"].RichText = true
+Converted["_TextBox12"].Text = ""
+Converted["_TextBox12"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox12"].TextScaled = true
+Converted["_TextBox12"].TextSize = 14
+Converted["_TextBox12"].TextStrokeTransparency = 0
+Converted["_TextBox12"].TextWrapped = true
+Converted["_TextBox12"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox12"].BackgroundTransparency = 0.25
+Converted["_TextBox12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox12"].BorderSizePixel = 0
+Converted["_TextBox12"].Size = UDim2.new(0.658245921, 0, 0.99999994, 0)
+Converted["_TextBox12"].Parent = Converted["_6GravityFrame2"]
+
+Converted["_TextButton20"].Font = Enum.Font.FredokaOne
+Converted["_TextButton20"].RichText = true
+Converted["_TextButton20"].Text = "set"
+Converted["_TextButton20"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton20"].TextScaled = true
+Converted["_TextButton20"].TextSize = 14
+Converted["_TextButton20"].TextStrokeTransparency = 0
+Converted["_TextButton20"].TextWrapped = true
+Converted["_TextButton20"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton20"].BackgroundTransparency = 0.5
+Converted["_TextButton20"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton20"].BorderSizePixel = 0
+Converted["_TextButton20"].Position = UDim2.new(0.658245921, 0, 0, 0)
+Converted["_TextButton20"].Size = UDim2.new(0.341754168, 0, 1, 0)
+Converted["_TextButton20"].Parent = Converted["_6GravityFrame2"]
+
+Converted["_7ViewFrame2"].BackgroundColor3 = Color3.fromRGB(255, 0, 179.000004529953)
+Converted["_7ViewFrame2"].BackgroundTransparency = 1
+Converted["_7ViewFrame2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_7ViewFrame2"].BorderSizePixel = 0
+Converted["_7ViewFrame2"].ClipsDescendants = true
+Converted["_7ViewFrame2"].Position = UDim2.new(0.296943277, 0, 0.5664047, 0)
+Converted["_7ViewFrame2"].Size = UDim2.new(0, 666, 0, 37)
+Converted["_7ViewFrame2"].Name = "7ViewFrame"
+Converted["_7ViewFrame2"].Parent = Converted["_19006647835"]
+
+Converted["_UICorner35"].Parent = Converted["_7ViewFrame2"]
+
+Converted["_TextBox13"].Font = Enum.Font.FredokaOne
+Converted["_TextBox13"].PlaceholderColor3 = Color3.fromRGB(181.0000044107437, 181.0000044107437, 181.0000044107437)
+Converted["_TextBox13"].PlaceholderText = "view player (username)"
+Converted["_TextBox13"].RichText = true
+Converted["_TextBox13"].Text = ""
+Converted["_TextBox13"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox13"].TextScaled = true
+Converted["_TextBox13"].TextSize = 14
+Converted["_TextBox13"].TextStrokeTransparency = 0
+Converted["_TextBox13"].TextWrapped = true
+Converted["_TextBox13"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox13"].BackgroundTransparency = 0.25
+Converted["_TextBox13"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox13"].BorderSizePixel = 0
+Converted["_TextBox13"].Size = UDim2.new(0.658245921, 0, 0.99999994, 0)
+Converted["_TextBox13"].Parent = Converted["_7ViewFrame2"]
+
+Converted["_TextButton21"].Font = Enum.Font.FredokaOne
+Converted["_TextButton21"].RichText = true
+Converted["_TextButton21"].Text = "set"
+Converted["_TextButton21"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton21"].TextScaled = true
+Converted["_TextButton21"].TextSize = 14
+Converted["_TextButton21"].TextStrokeTransparency = 0
+Converted["_TextButton21"].TextWrapped = true
+Converted["_TextButton21"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton21"].BackgroundTransparency = 0.5
+Converted["_TextButton21"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton21"].BorderSizePixel = 0
+Converted["_TextButton21"].Position = UDim2.new(0.658245921, 0, 0, 0)
+Converted["_TextButton21"].Size = UDim2.new(0.341754168, 0, 1, 0)
+Converted["_TextButton21"].Parent = Converted["_7ViewFrame2"]
+
+Converted["_0Title3"].Font = Enum.Font.FredokaOne
+Converted["_0Title3"].RichText = true
+Converted["_0Title3"].Text = "0 commands for"
+Converted["_0Title3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_0Title3"].TextScaled = true
+Converted["_0Title3"].TextSize = 14
+Converted["_0Title3"].TextStrokeTransparency = 0
+Converted["_0Title3"].TextWrapped = true
+Converted["_0Title3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_0Title3"].BackgroundTransparency = 0.9900000095367432
+Converted["_0Title3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_0Title3"].BorderSizePixel = 0
+Converted["_0Title3"].Position = UDim2.new(0.297489256, 0, 9.51415799e-08, 0)
+Converted["_0Title3"].Size = UDim2.new(0, 666, 0, 37)
+Converted["_0Title3"].Name = "0Title"
+Converted["_0Title3"].Parent = Converted["_19006647835"]
+
 Converted["_settings"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_settings"].BackgroundTransparency = 1
 Converted["_settings"].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1328,8 +1570,8 @@ Converted["_ScrollingFrame"].ClipsDescendants = false
 Converted["_ScrollingFrame"].Size = UDim2.new(1, 0, 1, 0)
 Converted["_ScrollingFrame"].Parent = Converted["_settings"]
 
-Converted["_UICorner31"].CornerRadius = UDim.new(0, 25)
-Converted["_UICorner31"].Parent = Converted["_ScrollingFrame"]
+Converted["_UICorner36"].CornerRadius = UDim.new(0, 25)
+Converted["_UICorner36"].Parent = Converted["_ScrollingFrame"]
 
 Converted["_0title"].Font = Enum.Font.FredokaOne
 Converted["_0title"].RichText = true
@@ -1348,11 +1590,11 @@ Converted["_0title"].Size = UDim2.new(0, 666, 0, 37)
 Converted["_0title"].Name = "0title"
 Converted["_0title"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UIListLayout3"].HorizontalFlex = Enum.UIFlexAlignment.Fill
-Converted["_UIListLayout3"].Padding = UDim.new(0, 8)
-Converted["_UIListLayout3"].Wraps = true
-Converted["_UIListLayout3"].HorizontalAlignment = Enum.HorizontalAlignment.Center
-Converted["_UIListLayout3"].Parent = Converted["_ScrollingFrame"]
+Converted["_UIListLayout5"].HorizontalFlex = Enum.UIFlexAlignment.Fill
+Converted["_UIListLayout5"].Padding = UDim.new(0, 8)
+Converted["_UIListLayout5"].Wraps = true
+Converted["_UIListLayout5"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIListLayout5"].Parent = Converted["_ScrollingFrame"]
 
 Converted["_5blursize"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_5blursize"].BackgroundTransparency = 1
@@ -1369,20 +1611,20 @@ Converted["_X-Line"].Size = UDim2.new(1, 0, 1, 0)
 Converted["_X-Line"].Name = "X-Line"
 Converted["_X-Line"].Parent = Converted["_5blursize"]
 
-Converted["_TextButton18"].Font = Enum.Font.SourceSans
-Converted["_TextButton18"].Text = ""
-Converted["_TextButton18"].TextColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextButton18"].TextSize = 14
-Converted["_TextButton18"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextButton18"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextButton18"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
-Converted["_TextButton18"].BorderSizePixel = 0
-Converted["_TextButton18"].Position = UDim2.new(0.245000005, 0, 0.5, 0)
-Converted["_TextButton18"].Size = UDim2.new(0.0149999997, 0, 2, 0)
-Converted["_TextButton18"].Parent = Converted["_X-Line"]
+Converted["_TextButton22"].Font = Enum.Font.SourceSans
+Converted["_TextButton22"].Text = ""
+Converted["_TextButton22"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton22"].TextSize = 14
+Converted["_TextButton22"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextButton22"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton22"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_TextButton22"].BorderSizePixel = 0
+Converted["_TextButton22"].Position = UDim2.new(0.245000005, 0, 0.5, 0)
+Converted["_TextButton22"].Size = UDim2.new(0.0149999997, 0, 2, 0)
+Converted["_TextButton22"].Parent = Converted["_X-Line"]
 
-Converted["_UICorner32"].CornerRadius = UDim.new(1, 0)
-Converted["_UICorner32"].Parent = Converted["_TextButton18"]
+Converted["_UICorner37"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner37"].Parent = Converted["_TextButton22"]
 
 Converted["_TextLabel"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel"].RichText = true
@@ -1399,8 +1641,8 @@ Converted["_TextLabel"].BorderSizePixel = 0
 Converted["_TextLabel"].Size = UDim2.new(1, 0, 1, 0)
 Converted["_TextLabel"].Parent = Converted["_X-Line"]
 
-Converted["_UICorner33"].CornerRadius = UDim.new(0, 25)
-Converted["_UICorner33"].Parent = Converted["_X-Line"]
+Converted["_UICorner38"].CornerRadius = UDim.new(0, 25)
+Converted["_UICorner38"].Parent = Converted["_X-Line"]
 
 Converted["_3rejoin"].Font = Enum.Font.FredokaOne
 Converted["_3rejoin"].RichText = true
@@ -1419,8 +1661,8 @@ Converted["_3rejoin"].Size = UDim2.new(0, 666, 0, 37)
 Converted["_3rejoin"].Name = "3rejoin"
 Converted["_3rejoin"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UICorner34"].CornerRadius = UDim.new(0, 25)
-Converted["_UICorner34"].Parent = Converted["_3rejoin"]
+Converted["_UICorner39"].CornerRadius = UDim.new(0, 25)
+Converted["_UICorner39"].Parent = Converted["_3rejoin"]
 
 Converted["_2reload"].Font = Enum.Font.FredokaOne
 Converted["_2reload"].RichText = true
@@ -1439,8 +1681,8 @@ Converted["_2reload"].Size = UDim2.new(0, 666, 0, 37)
 Converted["_2reload"].Name = "2reload"
 Converted["_2reload"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UICorner35"].CornerRadius = UDim.new(0, 25)
-Converted["_UICorner35"].Parent = Converted["_2reload"]
+Converted["_UICorner40"].CornerRadius = UDim.new(0, 25)
+Converted["_UICorner40"].Parent = Converted["_2reload"]
 
 Converted["_1unload"].Font = Enum.Font.FredokaOne
 Converted["_1unload"].RichText = true
@@ -1459,8 +1701,8 @@ Converted["_1unload"].Size = UDim2.new(0, 666, 0, 37)
 Converted["_1unload"].Name = "1unload"
 Converted["_1unload"].Parent = Converted["_ScrollingFrame"]
 
-Converted["_UICorner36"].CornerRadius = UDim.new(0, 25)
-Converted["_UICorner36"].Parent = Converted["_1unload"]
+Converted["_UICorner41"].CornerRadius = UDim.new(0, 25)
+Converted["_UICorner41"].Parent = Converted["_1unload"]
 
 Converted["_info"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_info"].BackgroundTransparency = 1
@@ -1482,8 +1724,8 @@ Converted["_avatar"].Size = UDim2.new(0.116647691, 0, 0.221960738, 0)
 Converted["_avatar"].Name = "avatar"
 Converted["_avatar"].Parent = Converted["_info"]
 
-Converted["_UICorner37"].CornerRadius = UDim.new(1, 0)
-Converted["_UICorner37"].Parent = Converted["_avatar"]
+Converted["_UICorner42"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner42"].Parent = Converted["_avatar"]
 
 Converted["_displayname"].Font = Enum.Font.FredokaOne
 Converted["_displayname"].RichText = true
@@ -1568,8 +1810,8 @@ Converted["_icon"].Size = UDim2.new(0.116647691, 0, 0.221960738, 0)
 Converted["_icon"].Name = "icon"
 Converted["_icon"].Parent = Converted["_info"]
 
-Converted["_UICorner38"].CornerRadius = UDim.new(1, 0)
-Converted["_UICorner38"].Parent = Converted["_icon"]
+Converted["_UICorner43"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner43"].Parent = Converted["_icon"]
 
 Converted["_gamename"].Font = Enum.Font.FredokaOne
 Converted["_gamename"].RichText = true
@@ -1683,31 +1925,31 @@ Converted["_ScrollingFrame1"].BorderSizePixel = 0
 Converted["_ScrollingFrame1"].Size = UDim2.new(1, 0, 1, 0)
 Converted["_ScrollingFrame1"].Parent = Converted["_music"]
 
-Converted["_UICorner39"].CornerRadius = UDim.new(0, 25)
-Converted["_UICorner39"].Parent = Converted["_ScrollingFrame1"]
+Converted["_UICorner44"].CornerRadius = UDim.new(0, 25)
+Converted["_UICorner44"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_UIListLayout4"].HorizontalFlex = Enum.UIFlexAlignment.Fill
-Converted["_UIListLayout4"].Padding = UDim.new(0, 8)
-Converted["_UIListLayout4"].Wraps = true
-Converted["_UIListLayout4"].HorizontalAlignment = Enum.HorizontalAlignment.Center
-Converted["_UIListLayout4"].Parent = Converted["_ScrollingFrame1"]
+Converted["_UIListLayout6"].HorizontalFlex = Enum.UIFlexAlignment.Fill
+Converted["_UIListLayout6"].Padding = UDim.new(0, 8)
+Converted["_UIListLayout6"].Wraps = true
+Converted["_UIListLayout6"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIListLayout6"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_0Title2"].Font = Enum.Font.FredokaOne
-Converted["_0Title2"].RichText = true
-Converted["_0Title2"].Text = "0 sounds"
-Converted["_0Title2"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_0Title2"].TextScaled = true
-Converted["_0Title2"].TextSize = 14
-Converted["_0Title2"].TextStrokeTransparency = 0
-Converted["_0Title2"].TextWrapped = true
-Converted["_0Title2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_0Title2"].BackgroundTransparency = 0.9900000095367432
-Converted["_0Title2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_0Title2"].BorderSizePixel = 0
-Converted["_0Title2"].Position = UDim2.new(0.297489256, 0, 9.51415799e-08, 0)
-Converted["_0Title2"].Size = UDim2.new(0, 666, 0, 37)
-Converted["_0Title2"].Name = "0Title"
-Converted["_0Title2"].Parent = Converted["_ScrollingFrame1"]
+Converted["_0Title4"].Font = Enum.Font.FredokaOne
+Converted["_0Title4"].RichText = true
+Converted["_0Title4"].Text = "0 sounds"
+Converted["_0Title4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_0Title4"].TextScaled = true
+Converted["_0Title4"].TextSize = 14
+Converted["_0Title4"].TextStrokeTransparency = 0
+Converted["_0Title4"].TextWrapped = true
+Converted["_0Title4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_0Title4"].BackgroundTransparency = 0.9900000095367432
+Converted["_0Title4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_0Title4"].BorderSizePixel = 0
+Converted["_0Title4"].Position = UDim2.new(0.297489256, 0, 9.51415799e-08, 0)
+Converted["_0Title4"].Size = UDim2.new(0, 666, 0, 37)
+Converted["_0Title4"].Name = "0Title"
+Converted["_0Title4"].Parent = Converted["_ScrollingFrame1"]
 
 Converted["_2RainingTacos"].BackgroundColor3 = Color3.fromRGB(103.0000014603138, 64.00000378489494, 0)
 Converted["_2RainingTacos"].BackgroundTransparency = 1
@@ -1719,25 +1961,25 @@ Converted["_2RainingTacos"].Size = UDim2.new(0, 666, 0, 37)
 Converted["_2RainingTacos"].Name = "2RainingTacos"
 Converted["_2RainingTacos"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_UICorner40"].Parent = Converted["_2RainingTacos"]
+Converted["_UICorner45"].Parent = Converted["_2RainingTacos"]
 
-Converted["_TextButton19"].Font = Enum.Font.FredokaOne
-Converted["_TextButton19"].RichText = true
-Converted["_TextButton19"].Text = "play | duration: 123s"
-Converted["_TextButton19"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextButton19"].TextScaled = true
-Converted["_TextButton19"].TextSize = 14
-Converted["_TextButton19"].TextStrokeTransparency = 0
-Converted["_TextButton19"].TextWrapped = true
-Converted["_TextButton19"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextButton19"].BackgroundTransparency = 0.5
-Converted["_TextButton19"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextButton19"].BorderSizePixel = 0
-Converted["_TextButton19"].Position = UDim2.new(0.615671694, 0, 0, 0)
-Converted["_TextButton19"].Size = UDim2.new(0.384328276, 0, 1, 0)
-Converted["_TextButton19"].Parent = Converted["_2RainingTacos"]
+Converted["_TextButton23"].Font = Enum.Font.FredokaOne
+Converted["_TextButton23"].RichText = true
+Converted["_TextButton23"].Text = "play | duration: 123s"
+Converted["_TextButton23"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton23"].TextScaled = true
+Converted["_TextButton23"].TextSize = 14
+Converted["_TextButton23"].TextStrokeTransparency = 0
+Converted["_TextButton23"].TextWrapped = true
+Converted["_TextButton23"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton23"].BackgroundTransparency = 0.5
+Converted["_TextButton23"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton23"].BorderSizePixel = 0
+Converted["_TextButton23"].Position = UDim2.new(0.615671694, 0, 0, 0)
+Converted["_TextButton23"].Size = UDim2.new(0.384328276, 0, 1, 0)
+Converted["_TextButton23"].Parent = Converted["_2RainingTacos"]
 
-Converted["_UICorner41"].Parent = Converted["_TextButton19"]
+Converted["_UICorner46"].Parent = Converted["_TextButton23"]
 
 Converted["_title1"].Font = Enum.Font.FredokaOne
 Converted["_title1"].RichText = true
@@ -1766,24 +2008,24 @@ Converted["_1Stop"].Size = UDim2.new(0, 666, 0, 37)
 Converted["_1Stop"].Name = "1Stop"
 Converted["_1Stop"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_UICorner42"].Parent = Converted["_1Stop"]
+Converted["_UICorner47"].Parent = Converted["_1Stop"]
 
-Converted["_TextButton20"].Font = Enum.Font.FredokaOne
-Converted["_TextButton20"].RichText = true
-Converted["_TextButton20"].Text = "stop"
-Converted["_TextButton20"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextButton20"].TextScaled = true
-Converted["_TextButton20"].TextSize = 14
-Converted["_TextButton20"].TextStrokeTransparency = 0
-Converted["_TextButton20"].TextWrapped = true
-Converted["_TextButton20"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextButton20"].BackgroundTransparency = 0.5
-Converted["_TextButton20"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextButton20"].BorderSizePixel = 0
-Converted["_TextButton20"].Size = UDim2.new(1, 0, 1, 0)
-Converted["_TextButton20"].Parent = Converted["_1Stop"]
+Converted["_TextButton24"].Font = Enum.Font.FredokaOne
+Converted["_TextButton24"].RichText = true
+Converted["_TextButton24"].Text = "stop"
+Converted["_TextButton24"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton24"].TextScaled = true
+Converted["_TextButton24"].TextSize = 14
+Converted["_TextButton24"].TextStrokeTransparency = 0
+Converted["_TextButton24"].TextWrapped = true
+Converted["_TextButton24"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton24"].BackgroundTransparency = 0.5
+Converted["_TextButton24"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton24"].BorderSizePixel = 0
+Converted["_TextButton24"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_TextButton24"].Parent = Converted["_1Stop"]
 
-Converted["_UICorner43"].Parent = Converted["_TextButton20"]
+Converted["_UICorner48"].Parent = Converted["_TextButton24"]
 
 Converted["_3RelaxedScene"].BackgroundColor3 = Color3.fromRGB(0, 103.000009059906, 33.00000183284283)
 Converted["_3RelaxedScene"].BackgroundTransparency = 1
@@ -1795,25 +2037,25 @@ Converted["_3RelaxedScene"].Size = UDim2.new(0, 666, 0, 37)
 Converted["_3RelaxedScene"].Name = "3RelaxedScene"
 Converted["_3RelaxedScene"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_UICorner44"].Parent = Converted["_3RelaxedScene"]
+Converted["_UICorner49"].Parent = Converted["_3RelaxedScene"]
 
-Converted["_TextButton21"].Font = Enum.Font.FredokaOne
-Converted["_TextButton21"].RichText = true
-Converted["_TextButton21"].Text = "play | duration: 123s"
-Converted["_TextButton21"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextButton21"].TextScaled = true
-Converted["_TextButton21"].TextSize = 14
-Converted["_TextButton21"].TextStrokeTransparency = 0
-Converted["_TextButton21"].TextWrapped = true
-Converted["_TextButton21"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextButton21"].BackgroundTransparency = 0.5
-Converted["_TextButton21"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextButton21"].BorderSizePixel = 0
-Converted["_TextButton21"].Position = UDim2.new(0.615671694, 0, 0, 0)
-Converted["_TextButton21"].Size = UDim2.new(0.384328276, 0, 1, 0)
-Converted["_TextButton21"].Parent = Converted["_3RelaxedScene"]
+Converted["_TextButton25"].Font = Enum.Font.FredokaOne
+Converted["_TextButton25"].RichText = true
+Converted["_TextButton25"].Text = "play | duration: 123s"
+Converted["_TextButton25"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton25"].TextScaled = true
+Converted["_TextButton25"].TextSize = 14
+Converted["_TextButton25"].TextStrokeTransparency = 0
+Converted["_TextButton25"].TextWrapped = true
+Converted["_TextButton25"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton25"].BackgroundTransparency = 0.5
+Converted["_TextButton25"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton25"].BorderSizePixel = 0
+Converted["_TextButton25"].Position = UDim2.new(0.615671694, 0, 0, 0)
+Converted["_TextButton25"].Size = UDim2.new(0.384328276, 0, 1, 0)
+Converted["_TextButton25"].Parent = Converted["_3RelaxedScene"]
 
-Converted["_UICorner45"].Parent = Converted["_TextButton21"]
+Converted["_UICorner50"].Parent = Converted["_TextButton25"]
 
 Converted["_title2"].Font = Enum.Font.FredokaOne
 Converted["_title2"].RichText = true
@@ -1842,25 +2084,25 @@ Converted["_4AllDropping8BitBeats"].Size = UDim2.new(0, 666, 0, 37)
 Converted["_4AllDropping8BitBeats"].Name = "4AllDropping8BitBeats"
 Converted["_4AllDropping8BitBeats"].Parent = Converted["_ScrollingFrame1"]
 
-Converted["_UICorner46"].Parent = Converted["_4AllDropping8BitBeats"]
+Converted["_UICorner51"].Parent = Converted["_4AllDropping8BitBeats"]
 
-Converted["_TextButton22"].Font = Enum.Font.FredokaOne
-Converted["_TextButton22"].RichText = true
-Converted["_TextButton22"].Text = "play | duration: 123s"
-Converted["_TextButton22"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_TextButton22"].TextScaled = true
-Converted["_TextButton22"].TextSize = 14
-Converted["_TextButton22"].TextStrokeTransparency = 0
-Converted["_TextButton22"].TextWrapped = true
-Converted["_TextButton22"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextButton22"].BackgroundTransparency = 0.5
-Converted["_TextButton22"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_TextButton22"].BorderSizePixel = 0
-Converted["_TextButton22"].Position = UDim2.new(0.615671694, 0, 0, 0)
-Converted["_TextButton22"].Size = UDim2.new(0.384328276, 0, 1, 0)
-Converted["_TextButton22"].Parent = Converted["_4AllDropping8BitBeats"]
+Converted["_TextButton26"].Font = Enum.Font.FredokaOne
+Converted["_TextButton26"].RichText = true
+Converted["_TextButton26"].Text = "play | duration: 123s"
+Converted["_TextButton26"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton26"].TextScaled = true
+Converted["_TextButton26"].TextSize = 14
+Converted["_TextButton26"].TextStrokeTransparency = 0
+Converted["_TextButton26"].TextWrapped = true
+Converted["_TextButton26"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton26"].BackgroundTransparency = 0.5
+Converted["_TextButton26"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton26"].BorderSizePixel = 0
+Converted["_TextButton26"].Position = UDim2.new(0.615671694, 0, 0, 0)
+Converted["_TextButton26"].Size = UDim2.new(0.384328276, 0, 1, 0)
+Converted["_TextButton26"].Parent = Converted["_4AllDropping8BitBeats"]
 
-Converted["_UICorner47"].Parent = Converted["_TextButton22"]
+Converted["_UICorner52"].Parent = Converted["_TextButton26"]
 
 Converted["_title3"].Font = Enum.Font.FredokaOne
 Converted["_title3"].RichText = true
@@ -1889,8 +2131,8 @@ Converted["_soundmenu"].Visible = false
 Converted["_soundmenu"].Name = "soundmenu"
 Converted["_soundmenu"].Parent = Converted["_project twilight"]
 
-Converted["_UICorner48"].CornerRadius = UDim.new(0, 10)
-Converted["_UICorner48"].Parent = Converted["_soundmenu"]
+Converted["_UICorner53"].CornerRadius = UDim.new(0, 10)
+Converted["_UICorner53"].Parent = Converted["_soundmenu"]
 
 Converted["_title4"].Font = Enum.Font.FredokaOne
 Converted["_title4"].RichText = true
@@ -1932,18 +2174,18 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function PIUL_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.1home.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_1home"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function OZRB_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.1home.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_1home"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -1952,14 +2194,14 @@ local function PIUL_fake_script() -- Fake Script: StarterGui.project twilight.si
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-
+	
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-
+	
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -1970,32 +2212,32 @@ local function PIUL_fake_script() -- Fake Script: StarterGui.project twilight.si
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-
+	
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-
+	
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-
+	
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-
-
+	
+	
 end
-local function FDQFW_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.0hide.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_0hide"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function JKHVJ_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.0hide.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_0hide"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2003,48 +2245,48 @@ local function FDQFW_fake_script() -- Fake Script: StarterGui.project twilight.s
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local blur = game.Lighting:WaitForChild("Blur")
-
+	
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-
+	
 	frame.Position = UDim2.new(1.08, 0, 0.14, 0)
-
+	
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(1.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		blur.Enabled = false
 	end)
-
-
-
+	
+	
+	
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-
+	
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-
+	
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-
+	
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-
-
+	
+	
 end
-local function MHTNDVC_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.2commands.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_2commands"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function WSRJT_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.2commands.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_2commands"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2053,14 +2295,14 @@ local function MHTNDVC_fake_script() -- Fake Script: StarterGui.project twilight
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-
+	
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-
+	
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -2071,42 +2313,42 @@ local function MHTNDVC_fake_script() -- Fake Script: StarterGui.project twilight
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-
+	
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-
+	
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-
+	
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-
-
+	
+	
 end
-local function BESFY_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.2commands.notification.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_notification"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function KRPHHJ_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.2commands.notification.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_notification"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local image = script.Parent
-	local supportedgames = {86392224761834}
+	local supportedgames = {86392224761834,19006647835,8908228901}
 	local gameid = game.PlaceId
 	local frame = image.Parent.Parent.Parent.uppermenu.commands
 	local scrollingframe = frame.universal
 	local topbar = frame.topbar
-
+	
 	for _, id in supportedgames do
-		if gameid == id then
+	    if gameid == id then
 			image.Visible = true
 			frame.gamespecific:FindFirstChild(tostring(gameid)).Visible = true
 			break
@@ -2116,30 +2358,30 @@ local function BESFY_fake_script() -- Fake Script: StarterGui.project twilight.s
 			scrollingframe.Size = UDim2.new(1, 0, 1, 0)
 			scrollingframe.Position = UDim2.new(0, 0, 0, 0)
 			break
-		end
+	    end
 	end
-
+	
 	local parentButton = image.Parent
 	if parentButton:IsA("ImageButton") then
-		parentButton.MouseButton1Click:Connect(function()
-			image.Visible = false
-		end)
+	    parentButton.MouseButton1Click:Connect(function()
+	        image.Visible = false
+	    end)
 	end
-
-
+	
+	
 end
-local function MFLCG_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.3info.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_3info"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function ESNITU_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.3info.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_3info"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2148,14 +2390,14 @@ local function MFLCG_fake_script() -- Fake Script: StarterGui.project twilight.s
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-
+	
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-
+	
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -2166,51 +2408,51 @@ local function MFLCG_fake_script() -- Fake Script: StarterGui.project twilight.s
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-
+	
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-
+	
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-
+	
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-
-
+	
+	
 end
-local function EGCFD_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.tween
-	local script = Instance.new("LocalScript")
-	script.Name = "tween"
-	script.Parent = Converted["_sidemenu"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function FGSM_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.tween
+    local script = Instance.new("LocalScript")
+    script.Name = "tween"
+    script.Parent = Converted["_sidemenu"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local frame = script.Parent
-
+	
 	frame.Position = UDim2.new(1.938, 0, 0.041, 0)
-
+	
 	frame:TweenPosition(UDim2.new(0.938, 0, 0.041, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 1.5)
 end
-local function GOMZM_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.5settings.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_5settings"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function MGPQJI_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.5settings.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_5settings"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2219,14 +2461,14 @@ local function GOMZM_fake_script() -- Fake Script: StarterGui.project twilight.s
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-
+	
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-
+	
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -2237,32 +2479,32 @@ local function GOMZM_fake_script() -- Fake Script: StarterGui.project twilight.s
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-
+	
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-
+	
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-
+	
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-
-
+	
+	
 end
-local function ATRRSS_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.4music.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_4music"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function WIDCSE_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.4music.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_4music"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2271,14 +2513,14 @@ local function ATRRSS_fake_script() -- Fake Script: StarterGui.project twilight.
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-
+	
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-
+	
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -2289,38 +2531,38 @@ local function ATRRSS_fake_script() -- Fake Script: StarterGui.project twilight.
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-
+	
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-
+	
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-
+	
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-
-
+	
+	
 end
-local function ZMCF_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.2NoclipFrame.TextButton.Noclip
-	local script = Instance.new("LocalScript")
-	script.Name = "Noclip"
-	script.Parent = Converted["_TextButton"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function VFRNJP_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.2NoclipFrame.TextButton.Noclip
+    local script = Instance.new("LocalScript")
+    script.Name = "Noclip"
+    script.Parent = Converted["_TextButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game:GetService("Players").LocalPlayer
 	local button = script.Parent
 	local character = player.Character or player.CharacterAdded:Wait()
 	local noclip = false
-
+	
 	function toggleNoclip()
 		noclip = not noclip
 		for _, part in pairs(character:GetChildren()) do
@@ -2329,122 +2571,122 @@ local function ZMCF_fake_script() -- Fake Script: StarterGui.project twilight.up
 			end
 		end
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		toggleNoclip()
 	end)
 end
-local function ZFLOKE_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.3WalkSpeedFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton1"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function KLSKZEK_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.3WalkSpeedFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		hum.WalkSpeed = tonumber(tb.Text)
 	end)
 end
-local function LBAGX_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.4JumpFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton2"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function RAQD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.4JumpFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		hum.JumpHeight = tonumber(tb.Text)
 	end)
 end
-local function PEQPY_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.5SetHealthFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton3"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function UYNKA_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.5SetHealthFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		hum.Health = tonumber(tb.Text)
 	end)
 end
-local function PXBKGHM_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.6GravityFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton4"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function QTAZZK_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.6GravityFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = tonumber(tb.Text)
 	end)
 end
-local function UJLQPN_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.7ViewFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton5"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function CTIUPH_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.7ViewFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton5"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		local target = game.Players:FindFirstChild(tb.Text)
 		if target then
@@ -2458,44 +2700,44 @@ local function UJLQPN_fake_script() -- Fake Script: StarterGui.project twilight.
 		end
 	end)
 end
-local function YCEPL_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.0Title.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_0Title"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function QCIDK_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.0Title.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_0Title"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local text = script.Parent
 	local commands = text.Parent:GetChildren()
 	local count = #commands - 3
-
+	
 	text.Text = count .. " commands"
 end
-local function JZRH_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.8TeleportFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton6"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function OIDP_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.8TeleportFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton6"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		local target = game.Players:FindFirstChild(tb.Text)
 		if target then
@@ -2505,24 +2747,24 @@ local function JZRH_fake_script() -- Fake Script: StarterGui.project twilight.up
 		end
 	end)
 end
-local function VIEAA_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.1ESPFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton7"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function RTKYV_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.1ESPFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton7"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-
+	
 	button.MouseButton1Click:Connect(function()
 		for _, player in game.Players:GetPlayers() do
 			local character = player.Character
@@ -2537,24 +2779,24 @@ local function VIEAA_fake_script() -- Fake Script: StarterGui.project twilight.u
 		end
 	end)
 end
-local function YFOFYL_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.1ESPFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton8"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function AGBYWBZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.1ESPFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton8"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-
+	
 	button.MouseButton1Click:Connect(function()
 		for _, player in game.Players:GetPlayers() do
 			local character = player.Character
@@ -2567,7 +2809,7 @@ local function YFOFYL_fake_script() -- Fake Script: StarterGui.project twilight.
 					highlight.OutlineColor = Color3.new(0, 0.607843, 0)
 					highlight.FillTransparency = 0.5
 					highlight.OutlineTransparency = 0 
-
+	
 					local billboardGui = Instance.new("BillboardGui")
 					billboardGui.Parent = character.Head
 					billboardGui.AlwaysOnTop = true
@@ -2575,7 +2817,7 @@ local function YFOFYL_fake_script() -- Fake Script: StarterGui.project twilight.
 					billboardGui.Size = UDim2.new(5, 0, 2.5, 0)
 					billboardGui.StudsOffset = Vector3.new(0, 2, 0)
 					billboardGui.Name = "PlayerNameBillboard"
-
+	
 					local playerNameLabel = Instance.new("TextLabel")
 					playerNameLabel.Parent = billboardGui
 					playerNameLabel.BackgroundTransparency = 1
@@ -2591,25 +2833,25 @@ local function YFOFYL_fake_script() -- Fake Script: StarterGui.project twilight.
 		end
 	end)
 end
-local function QCXFQTV_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.topbar.universal.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_universal1"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function BYWO_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.topbar.universal.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_universal1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local button = script.Parent
 	local topbar = button.Parent
 	local white = topbar.white
 	local frame = topbar.Parent.universal
 	local ts = game:GetService("TweenService")
-
+	
 	button.MouseButton1Click:Connect(function()
 		white:TweenPosition(button.Position, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.25)
 		for _, child in ipairs(frame.Parent:GetChildren()) do
@@ -2620,25 +2862,25 @@ local function QCXFQTV_fake_script() -- Fake Script: StarterGui.project twilight
 		frame.Visible = true
 	end)
 end
-local function ZMTH_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.topbar.gamespecific.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_gamespecific"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function MGDKS_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.topbar.gamespecific.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_gamespecific"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local button = script.Parent
 	local topbar = button.Parent
 	local white = topbar.white
 	local frame = topbar.Parent.gamespecific
 	local ts = game:GetService("TweenService")
-
+	
 	button.MouseButton1Click:Connect(function()
 		white:TweenPosition(button.Position, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.25)
 		for _, child in ipairs(frame.Parent:GetChildren()) do
@@ -2649,24 +2891,24 @@ local function ZMTH_fake_script() -- Fake Script: StarterGui.project twilight.up
 		frame.Visible = true
 	end)
 end
-local function AECMVLD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.2NoclipFrame.TextButton.Noclip
-	local script = Instance.new("LocalScript")
-	script.Name = "Noclip"
-	script.Parent = Converted["_TextButton9"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function EKAJRUH_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.2NoclipFrame.TextButton.Noclip
+    local script = Instance.new("LocalScript")
+    script.Name = "Noclip"
+    script.Parent = Converted["_TextButton9"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game:GetService("Players").LocalPlayer
 	local button = script.Parent
 	local character = player.Character or player.CharacterAdded:Wait()
 	local noclip = false
-
+	
 	function toggleNoclip()
 		noclip = not noclip
 		for _, part in pairs(character:GetChildren()) do
@@ -2675,122 +2917,122 @@ local function AECMVLD_fake_script() -- Fake Script: StarterGui.project twilight
 			end
 		end
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		toggleNoclip()
 	end)
 end
-local function TAIGR_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.3WalkSpeedFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton10"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function NTIGSMD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.3WalkSpeedFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton10"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		hum.WalkSpeed = tonumber(tb.Text)
 	end)
 end
-local function OAZZAX_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.4JumpFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton11"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function MMAA_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.4JumpFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton11"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		hum.JumpHeight = tonumber(tb.Text)
 	end)
 end
-local function SYFYMN_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.5SetHealthFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton12"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function RDUIMQ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.5SetHealthFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton12"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		hum.Health = tonumber(tb.Text)
 	end)
 end
-local function YYGN_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.6GravityFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton13"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function RETD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.6GravityFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton13"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = tonumber(tb.Text)
 	end)
 end
-local function JLFBAS_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.7ViewFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton14"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function BGVBRJJ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.7ViewFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton14"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		local target = game.Players:FindFirstChild(tb.Text)
 		if target then
@@ -2804,25 +3046,25 @@ local function JLFBAS_fake_script() -- Fake Script: StarterGui.project twilight.
 		end
 	end)
 end
-local function GBQN_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.8TeleportFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton15"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function XBFO_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.8TeleportFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton15"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-
+	
 	button.MouseButton1Click:Connect(function()
 		local target = game.Players:FindFirstChild(tb.Text)
 		if target then
@@ -2832,44 +3074,44 @@ local function GBQN_fake_script() -- Fake Script: StarterGui.project twilight.up
 		end
 	end)
 end
-local function DWDFGRP_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.0Title.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_0Title1"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function LUSRAU_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.0Title.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_0Title1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local text = script.Parent
 	local commands = text.Parent:GetChildren()
 	local count = #commands - 3
 	local gameInfo = game.MarketplaceService:GetProductInfo(tonumber(script.Parent.Parent.Name), Enum.InfoType.Asset)
-
+	
 	text.Text = count .. " commands for " .. gameInfo.Name
 end
-local function DZXUUHH_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.1ESPFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton16"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function QYYL_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.1ESPFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton16"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-
+	
 	button.MouseButton1Click:Connect(function()
 		for _, player in game.Players:GetPlayers() do
 			local character = player.Character
@@ -2884,24 +3126,24 @@ local function DZXUUHH_fake_script() -- Fake Script: StarterGui.project twilight
 		end
 	end)
 end
-local function XUHRM_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.1ESPFrame.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton17"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function HASYZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.1ESPFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton17"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-
+	
 	button.MouseButton1Click:Connect(function()
 		for _, player in game.Players:GetPlayers() do
 			local character = player.Character
@@ -2914,7 +3156,7 @@ local function XUHRM_fake_script() -- Fake Script: StarterGui.project twilight.u
 					highlight.OutlineColor = Color3.new(0, 0.607843, 0)
 					highlight.FillTransparency = 0.5
 					highlight.OutlineTransparency = 0 
-
+	
 					local billboardGui = Instance.new("BillboardGui")
 					billboardGui.Parent = character.Head
 					billboardGui.AlwaysOnTop = true
@@ -2922,7 +3164,7 @@ local function XUHRM_fake_script() -- Fake Script: StarterGui.project twilight.u
 					billboardGui.Size = UDim2.new(5, 0, 2.5, 0)
 					billboardGui.StudsOffset = Vector3.new(0, 2, 0)
 					billboardGui.Name = "PlayerNameBillboard"
-
+	
 					local playerNameLabel = Instance.new("TextLabel")
 					playerNameLabel.Parent = billboardGui
 					playerNameLabel.BackgroundTransparency = 1
@@ -2938,150 +3180,329 @@ local function XUHRM_fake_script() -- Fake Script: StarterGui.project twilight.u
 		end
 	end)
 end
-local function CPWM_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.0title.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_0title"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
+local function UVBKKM_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.8908228901.0Title.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_0Title2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local text = script.Parent
+	local commands = text.Parent:GetChildren()
+	local count = #commands - 3
+	local gameInfo = game.MarketplaceService:GetProductInfo(tonumber(script.Parent.Parent.Name), Enum.InfoType.Asset)
+	
+	text.Text = count .. " commands for " .. gameInfo.Name
+end
+local function LWRB_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.8908228901.1SharkESPFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton18"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local player = game.Players.LocalPlayer
+	local char = player.Character or player.CharacterAdded:Wait()
+	local hum = char:WaitForChild("Humanoid")
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, shark in workspace:WaitForChild("Sharks"):GetChildren() do
+			local highlight = shark:FindFirstChildOfClass("Highlight")
+			if highlight then
+				local highlight = shark:FindFirstChildOfClass("Highlight")
+				local billboardGui = shark.Engine:FindFirstChildOfClass("BillboardGui")
+				if highlight then
+					highlight:Destroy()
+					billboardGui:Destroy()
+				end
+			end
 		end
-		return req(obj)
-	end
+	end)
+end
+local function ZXFQWAN_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.8908228901.1SharkESPFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton19"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local player = game.Players.LocalPlayer
+	local char = player.Character or player.CharacterAdded:Wait()
+	local hum = char:WaitForChild("Humanoid")
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		for _, shark in workspace:WaitForChild("Sharks"):GetChildren() do
+			local highlight = shark:FindFirstChildOfClass("Highlight")
+				if not highlight then
+					highlight = Instance.new("Highlight")
+					highlight.Parent = shark
+					highlight.FillColor = Color3.new(0, 1, 0)
+					highlight.OutlineColor = Color3.new(0, 0.607843, 0)
+					highlight.FillTransparency = 0.5
+					highlight.OutlineTransparency = 0 
+	
+					local billboardGui = Instance.new("BillboardGui")
+					billboardGui.Parent = shark.Engine
+					billboardGui.AlwaysOnTop = true
+					billboardGui.Adornee = shark.Engine
+					billboardGui.Size = UDim2.new(5, 0, 2.5, 0)
+					billboardGui.StudsOffset = Vector3.new(0, 2, 0)
+					billboardGui.Name = "PlayerNameBillboard"
+	
+					local playerNameLabel = Instance.new("TextLabel")
+					playerNameLabel.Parent = billboardGui
+					playerNameLabel.BackgroundTransparency = 1
+					playerNameLabel.Size = UDim2.new(1, 0, 1, 0)
+					playerNameLabel.Position = UDim2.new(0, 0, 0, 0)
+					playerNameLabel.Font = Enum.Font.FredokaOne
+					playerNameLabel.Text = player.DisplayName .. " [SHARK]"
+					playerNameLabel.TextStrokeTransparency = 0
+					playerNameLabel.TextColor3 = Color3.new(1, 1, 1)
+					playerNameLabel.TextScaled = true
+				end
+			end
+		end
+	end)
+end
+local function VAOR_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.6GravityFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton20"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	local hum = char:WaitForChild("Humanoid")
+	local button = script.Parent
+	local tb = button.Parent.TextBox
+	
+	button.MouseButton1Click:Connect(function()
+		game.Workspace.Gravity = tonumber(tb.Text)
+	end)
+end
+local function JMOZGG_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.7ViewFrame.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton21"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	local hum = char:WaitForChild("Humanoid")
+	local button = script.Parent
+	local tb = button.Parent.TextBox
+	
+	button.MouseButton1Click:Connect(function()
+		local target = game.Players:FindFirstChild(tb.Text)
+		if target then
+			local targetchar = target.Character
+			local targethead = targetchar:FindFirstChild("Head")
+			if targethead then
+				hum.CameraOffset = Vector3.new(0, 0, 0)
+				workspace.CurrentCamera.CameraSubject = targethead
+				workspace.CurrentCamera.CameraType = Enum.CameraType.Custom
+			end
+		end
+	end)
+end
+local function FZDLR_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.0Title.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_0Title3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local text = script.Parent
+	local commands = text.Parent:GetChildren()
+	local count = #commands - 3
+	local gameInfo = game.MarketplaceService:GetProductInfo(tonumber(script.Parent.Parent.Name), Enum.InfoType.Asset)
+	
+	text.Text = count .. " commands for " .. gameInfo.Name
+end
+local function PDUXGD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.0title.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_0title"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local text = script.Parent
 	local settingschildren = text.Parent:GetChildren()
 	local count = #settingschildren - 3
-
+	
 	text.Text = count .. " settings"
 end
-local function UJFJ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.5blursize.X-Line.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_X-Line"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function DDRNRUQ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.5blursize.X-Line.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_X-Line"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local UIS = game:GetService("UserInputService")
 	local percentage = 24
 	local Dragging = false
 	local blur = game.Lighting:WaitForChild("Blur")
-
+	
 	script.Parent.TextButton.MouseButton1Down:Connect(function()
 		Dragging = true
 	end)
-
+	
 	function ChangeToValue(Percent)
 		local Value = math.floor(Percent*100)
 		return Value
 	end
-
+	
 	UIS.InputChanged:Connect(function()
 		if Dragging then
 			local MousePos = UIS:GetMouseLocation()+Vector2.new(0,-36)
 			local RelPos = MousePos-script.Parent.AbsolutePosition
 			local Percent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
-
+			
 			script.Parent.TextButton.Position = UDim2.new(Percent,0,script.Parent.TextButton.Position.Y.Scale,0)
 			local FinalValue = ChangeToValue(Percent)
-
+			
 			percentage = FinalValue
 			blur.Size = FinalValue
 			script.Parent.TextLabel.Text = "blur size (" .. FinalValue .. ")"
 		end
 	end)
-
+	
 	UIS.InputEnded:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			Dragging = false
 		end
 	end)
 end
-local function GJENIZY_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.3rejoin.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_3rejoin"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function TXMGMKY_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.3rejoin.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_3rejoin"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local button = script.Parent
 	local placeid = game.PlaceId
 	local player = game.Players.LocalPlayer
 	local tps = game:GetService("TeleportService")
-
+	
 	button.MouseButton1Click:Connect(function()
 		tps:Teleport(placeid, player)
 	end)
 end
-local function NWUW_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.2reload.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_2reload"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function UTGYVQE_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.2reload.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_2reload"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
 	local button = script.Parent
-
+	
 	button.MouseButton1Click:Connect(function()
 		gui:Clone().Parent = gui.Parent
 		game.Lighting:WaitForChild("Blur"):Destroy()
 		gui:Destroy()
 	end)
 end
-local function FAOODA_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.1unload.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_1unload"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function QZWMZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.1unload.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_1unload"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
 	local button = script.Parent
-
+	
 	button.MouseButton1Click:Connect(function()
 		game.Lighting:WaitForChild("Blur"):Destroy()
 		gui:Destroy()
 	end)
 end
-local function POTO_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.info.playerinfohandler
-	local script = Instance.new("LocalScript")
-	script.Name = "playerinfohandler"
-	script.Parent = Converted["_info"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function URLNM_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.info.playerinfohandler
+    local script = Instance.new("LocalScript")
+    script.Name = "playerinfohandler"
+    script.Parent = Converted["_info"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local player = game.Players.LocalPlayer
 	local frame = script.Parent
@@ -3091,17 +3512,17 @@ local function POTO_fake_script() -- Fake Script: StarterGui.project twilight.up
 	local userid = frame.userid
 	local role = frame.role
 	local players = game:GetService("Players")
-
+	
 	image.Image = players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
 	name.Text = "display name: " .. player.DisplayName
 	username.Text = "username: @" .. player.Name
 	userid.Text = "user id: " .. player.UserId
 	role.Text = "role: guest"
-
+	
 	if player:IsFriendsWith(1109975917) then
 		role.Text = "role: friend"
 	end
-
+	
 	if player.UserId == 1109975917 then --kris
 		role.Text = "role: owner"
 		role.TextColor3 = Color3.fromHex("B200FF")
@@ -3116,18 +3537,18 @@ local function POTO_fake_script() -- Fake Script: StarterGui.project twilight.up
 		role.TextColor3 = Color3.fromHex("68A4F7")
 	end
 end
-local function SPOLV_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.info.gameinfohandler
-	local script = Instance.new("LocalScript")
-	script.Name = "gameinfohandler"
-	script.Parent = Converted["_info"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function CBRND_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.info.gameinfohandler
+    local script = Instance.new("LocalScript")
+    script.Name = "gameinfohandler"
+    script.Parent = Converted["_info"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local frame = script.Parent
 	local image = frame.icon
@@ -3142,7 +3563,7 @@ local function SPOLV_fake_script() -- Fake Script: StarterGui.project twilight.u
 	local gameInfo = marketplace:GetProductInfo(game.PlaceId, Enum.InfoType.Asset)
 	local creatorid = game.CreatorId
 	local gameversion = frame.gameversion
-
+	
 	if game.PrivateServerId ~= "" then
 		if game.PrivateServerOwnerId ~= 0 then
 			local psownerInfo = userservice:GetUserInfosByUserIdsAsync({ game.PrivateServerOwnerId })
@@ -3153,11 +3574,11 @@ local function SPOLV_fake_script() -- Fake Script: StarterGui.project twilight.u
 	else
 		servertype.Text = "server type: public server"
 	end
-
+	
 	if UserSettings().GameSettings:InStudioMode() == true then
 		servertype.Text = "server type: studio server"
 	end
-
+	
 	if game.CreatorType == Enum.CreatorType.User then
 		local creatorInfo = userservice:GetUserInfosByUserIdsAsync({ creatorid })
 		if creatorInfo and creatorInfo[1] then
@@ -3169,24 +3590,24 @@ local function SPOLV_fake_script() -- Fake Script: StarterGui.project twilight.u
 		local groupInfo = groups:GetGroupInfoAsync(creatorid)
 		creator.Text = "game creator: '" .. groupInfo.Name .. "'"
 	end
-
+	
 	name.Text = "game name: " .. gameInfo.Name
 	placeid.Text = "place id: " .. game.PlaceId
 	image.Image = "rbxassetid://" .. gameInfo.IconImageAssetId
 	gameversion.Text = "game version: v" .. game.PlaceVersion
 end
-local function UWMUG_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.handler
-	local script = Instance.new("LocalScript")
-	script.Name = "handler"
-	script.Parent = Converted["_uppermenu"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function BJFBWCZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.handler
+    local script = Instance.new("LocalScript")
+    script.Name = "handler"
+    script.Parent = Converted["_uppermenu"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local blur = Instance.new("BlurEffect")
 	local frame = script.Parent
@@ -3196,47 +3617,47 @@ local function UWMUG_fake_script() -- Fake Script: StarterGui.project twilight.u
 	local music = frame.music
 	local settings = frame.settings
 	local site = home.site
-
+	
 	game:GetService("RunService").Heartbeat:Connect(function()
 		site.Text = "https://github.com/kprjcts/projecttwilight"
 	end)
-
+	
 	blur.Parent = game.Lighting
 	blur.Enabled = false
-
+	
 	script.Parent:SetAttribute("hi", "hi")
 end
-local function TFUQ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.0Title.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_0Title2"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function XTPRQF_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.0Title.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_0Title4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local text = script.Parent
 	local commands = text.Parent:GetChildren()
 	local count = #commands - 4
-
+	
 	text.Text = count .. " sounds"
 end
-local function KYZPJ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.2RainingTacos.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton19"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function HDYDPD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.2RainingTacos.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton23"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local button = script.Parent
 	local textlabel = button.Parent.title
@@ -3245,18 +3666,18 @@ local function KYZPJ_fake_script() -- Fake Script: StarterGui.project twilight.u
 	local mps = game:GetService("MarketplaceService")
 	local soundid = 142376088
 	local testsound = Instance.new("Sound")
-
+	
 	testsound.Parent = button
 	testsound.SoundId = "rbxassetid://" .. soundid
-
+	
 	testsound.Loaded:Connect(function()
 		button.Text = "play | duration: " .. math.round(testsound.TimeLength) .. "s"
 	end)
-
+	
 	local info = mps:GetProductInfo(soundid)
-
+	
 	textlabel.Text = "'" .. info.Name .. "'"
-
+	
 	button.MouseButton1Click:Connect(function()
 		sound.SoundId = "rbxassetid://" .. soundid
 		sound:Play()
@@ -3264,41 +3685,41 @@ local function KYZPJ_fake_script() -- Fake Script: StarterGui.project twilight.u
 		soundframe.title.Text = textlabel.Text
 	end)
 end
-local function HFJDN_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.1Stop.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton20"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function XLKCB_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.1Stop.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton24"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local button = script.Parent
 	local sframe = button.Parent.Parent
 	local soundframe = sframe.Parent.Parent.Parent.soundmenu
 	local sound = soundframe:WaitForChild("currentsound")
-
+	
 	button.MouseButton1Click:Connect(function()
 		sound:Stop()
 		soundframe.Visible = false
 	end)
 end
-local function QDEJLP_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.3RelaxedScene.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton21"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function FXRY_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.3RelaxedScene.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton25"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local button = script.Parent
 	local textlabel = button.Parent.title
@@ -3307,18 +3728,18 @@ local function QDEJLP_fake_script() -- Fake Script: StarterGui.project twilight.
 	local mps = game:GetService("MarketplaceService")
 	local soundid = 1848354536
 	local testsound = Instance.new("Sound")
-
+	
 	testsound.Parent = button
 	testsound.SoundId = "rbxassetid://" .. soundid
-
+	
 	testsound.Loaded:Connect(function()
 		button.Text = "play | duration: " .. math.round(testsound.TimeLength) .. "s"
 	end)
-
+	
 	local info = mps:GetProductInfo(soundid)
-
+	
 	textlabel.Text = "'" .. info.Name .. "'"
-
+	
 	button.MouseButton1Click:Connect(function()
 		sound.SoundId = "rbxassetid://" .. soundid
 		sound:Play()
@@ -3326,18 +3747,18 @@ local function QDEJLP_fake_script() -- Fake Script: StarterGui.project twilight.
 		soundframe.title.Text = textlabel.Text
 	end)
 end
-local function KNWPB_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.4AllDropping8BitBeats.TextButton.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_TextButton22"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function ZBGMSMI_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.4AllDropping8BitBeats.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton26"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local button = script.Parent
 	local textlabel = button.Parent.title
@@ -3346,18 +3767,18 @@ local function KNWPB_fake_script() -- Fake Script: StarterGui.project twilight.u
 	local mps = game:GetService("MarketplaceService")
 	local soundid = 9048375035
 	local testsound = Instance.new("Sound")
-
+	
 	testsound.Parent = button
 	testsound.SoundId = "rbxassetid://" .. soundid
-
+	
 	testsound.Loaded:Connect(function()
 		button.Text = "play | duration: " .. math.round(testsound.TimeLength) .. "s"
 	end)
-
+	
 	local info = mps:GetProductInfo(soundid)
-
+	
 	textlabel.Text = "'" .. info.Name .. "'"
-
+	
 	button.MouseButton1Click:Connect(function()
 		sound.SoundId = "rbxassetid://" .. soundid
 		sound:Play()
@@ -3365,91 +3786,91 @@ local function KNWPB_fake_script() -- Fake Script: StarterGui.project twilight.u
 		soundframe.title.Text = textlabel.Text
 	end)
 end
-local function MVLKY_fake_script() -- Fake Script: StarterGui.project twilight.soundmenu.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_soundmenu"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function QAUD_fake_script() -- Fake Script: StarterGui.project twilight.soundmenu.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_soundmenu"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	local currentsound = Instance.new("Sound")
 	currentsound.Name = "currentsound"
 	currentsound.Parent = script.Parent
 	currentsound.Looped = true
 	currentsound.Volume = 0.5
-
+	
 	while true do
 		script.Parent.duration.Text = math.round(currentsound.TimePosition) .. "s / " .. math.round(currentsound.TimeLength) .. "s"
 		task.wait(1)
 	end
 end
-local function IBEWE_fake_script() -- Fake Script: StarterGui.project twilight.soundmenu.LocalScript
-	local script = Instance.new("LocalScript")
-	script.Name = "LocalScript"
-	script.Parent = Converted["_soundmenu"]
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
+local function MDKIB_fake_script() -- Fake Script: StarterGui.project twilight.soundmenu.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_soundmenu"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
 
 	--// Services
 	local Players = game:GetService('Players')
 	local UIS = game:GetService("UserInputService")
-
+	
 	--// Variables
 	local UI = script.Parent
-
+	
 	local Player = Players.LocalPlayer
 	local Mouse = Player:GetMouse()
-
+	
 	local Hovered = false
 	local Holding = false
 	local MoveCon = nil
-
+	
 	local InitialX, InitialY, UIInitialPos
-
+	
 	--// Functions
-
+	
 	local function Drag()
 		if Holding == false then MoveCon:Disconnect(); return end
 		local distanceMovedX = InitialX - Mouse.X
 		local distanceMovedY = InitialY - Mouse.Y
-
+	
 		UI.Position = UIInitialPos - UDim2.new(0, distanceMovedX, 0, distanceMovedY)
 	end
-
+	
 	--// Connections
-
+	
 	UI.MouseEnter:Connect(function()
 		Hovered = true
 	end)
-
+	
 	UI.MouseLeave:Connect(function()
 		Hovered = false
 	end)
-
+	
 	UIS.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			Holding = Hovered
 			if Holding then
 				InitialX, InitialY = Mouse.X, Mouse.Y
 				UIInitialPos = UI.Position
-
+	
 				MoveCon = Mouse.Move:Connect(Drag)
 			end
 		end
 	end)
-
+	
 	UIS.InputEnded:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			Holding = false
@@ -3457,48 +3878,54 @@ local function IBEWE_fake_script() -- Fake Script: StarterGui.project twilight.s
 	end)
 end
 
-coroutine.wrap(PIUL_fake_script)()
-coroutine.wrap(FDQFW_fake_script)()
-coroutine.wrap(MHTNDVC_fake_script)()
-coroutine.wrap(BESFY_fake_script)()
-coroutine.wrap(MFLCG_fake_script)()
-coroutine.wrap(EGCFD_fake_script)()
-coroutine.wrap(GOMZM_fake_script)()
-coroutine.wrap(ATRRSS_fake_script)()
-coroutine.wrap(ZMCF_fake_script)()
-coroutine.wrap(ZFLOKE_fake_script)()
-coroutine.wrap(LBAGX_fake_script)()
-coroutine.wrap(PEQPY_fake_script)()
-coroutine.wrap(PXBKGHM_fake_script)()
-coroutine.wrap(UJLQPN_fake_script)()
-coroutine.wrap(YCEPL_fake_script)()
-coroutine.wrap(JZRH_fake_script)()
-coroutine.wrap(VIEAA_fake_script)()
-coroutine.wrap(YFOFYL_fake_script)()
-coroutine.wrap(QCXFQTV_fake_script)()
-coroutine.wrap(ZMTH_fake_script)()
-coroutine.wrap(AECMVLD_fake_script)()
-coroutine.wrap(TAIGR_fake_script)()
-coroutine.wrap(OAZZAX_fake_script)()
-coroutine.wrap(SYFYMN_fake_script)()
-coroutine.wrap(YYGN_fake_script)()
-coroutine.wrap(JLFBAS_fake_script)()
-coroutine.wrap(GBQN_fake_script)()
-coroutine.wrap(DWDFGRP_fake_script)()
-coroutine.wrap(DZXUUHH_fake_script)()
-coroutine.wrap(XUHRM_fake_script)()
-coroutine.wrap(CPWM_fake_script)()
-coroutine.wrap(UJFJ_fake_script)()
-coroutine.wrap(GJENIZY_fake_script)()
-coroutine.wrap(NWUW_fake_script)()
-coroutine.wrap(FAOODA_fake_script)()
-coroutine.wrap(POTO_fake_script)()
-coroutine.wrap(SPOLV_fake_script)()
-coroutine.wrap(UWMUG_fake_script)()
-coroutine.wrap(TFUQ_fake_script)()
-coroutine.wrap(KYZPJ_fake_script)()
-coroutine.wrap(HFJDN_fake_script)()
-coroutine.wrap(QDEJLP_fake_script)()
-coroutine.wrap(KNWPB_fake_script)()
-coroutine.wrap(MVLKY_fake_script)()
-coroutine.wrap(IBEWE_fake_script)()
+coroutine.wrap(OZRB_fake_script)()
+coroutine.wrap(JKHVJ_fake_script)()
+coroutine.wrap(WSRJT_fake_script)()
+coroutine.wrap(KRPHHJ_fake_script)()
+coroutine.wrap(ESNITU_fake_script)()
+coroutine.wrap(FGSM_fake_script)()
+coroutine.wrap(MGPQJI_fake_script)()
+coroutine.wrap(WIDCSE_fake_script)()
+coroutine.wrap(VFRNJP_fake_script)()
+coroutine.wrap(KLSKZEK_fake_script)()
+coroutine.wrap(RAQD_fake_script)()
+coroutine.wrap(UYNKA_fake_script)()
+coroutine.wrap(QTAZZK_fake_script)()
+coroutine.wrap(CTIUPH_fake_script)()
+coroutine.wrap(QCIDK_fake_script)()
+coroutine.wrap(OIDP_fake_script)()
+coroutine.wrap(RTKYV_fake_script)()
+coroutine.wrap(AGBYWBZ_fake_script)()
+coroutine.wrap(BYWO_fake_script)()
+coroutine.wrap(MGDKS_fake_script)()
+coroutine.wrap(EKAJRUH_fake_script)()
+coroutine.wrap(NTIGSMD_fake_script)()
+coroutine.wrap(MMAA_fake_script)()
+coroutine.wrap(RDUIMQ_fake_script)()
+coroutine.wrap(RETD_fake_script)()
+coroutine.wrap(BGVBRJJ_fake_script)()
+coroutine.wrap(XBFO_fake_script)()
+coroutine.wrap(LUSRAU_fake_script)()
+coroutine.wrap(QYYL_fake_script)()
+coroutine.wrap(HASYZ_fake_script)()
+coroutine.wrap(UVBKKM_fake_script)()
+coroutine.wrap(LWRB_fake_script)()
+coroutine.wrap(ZXFQWAN_fake_script)()
+coroutine.wrap(VAOR_fake_script)()
+coroutine.wrap(JMOZGG_fake_script)()
+coroutine.wrap(FZDLR_fake_script)()
+coroutine.wrap(PDUXGD_fake_script)()
+coroutine.wrap(DDRNRUQ_fake_script)()
+coroutine.wrap(TXMGMKY_fake_script)()
+coroutine.wrap(UTGYVQE_fake_script)()
+coroutine.wrap(QZWMZ_fake_script)()
+coroutine.wrap(URLNM_fake_script)()
+coroutine.wrap(CBRND_fake_script)()
+coroutine.wrap(BJFBWCZ_fake_script)()
+coroutine.wrap(XTPRQF_fake_script)()
+coroutine.wrap(HDYDPD_fake_script)()
+coroutine.wrap(XLKCB_fake_script)()
+coroutine.wrap(FXRY_fake_script)()
+coroutine.wrap(ZBGMSMI_fake_script)()
+coroutine.wrap(QAUD_fake_script)()
+coroutine.wrap(MDKIB_fake_script)()
