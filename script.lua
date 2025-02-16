@@ -3282,7 +3282,7 @@ local function ZXFQWAN_fake_script() -- Fake Script: StarterGui.project twilight
 				end
 			end
 		end
-	end
+	end)
 end)
 local function VAOR_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.6GravityFrame.TextButton.LocalScript
     local script = Instance.new("LocalScript")
