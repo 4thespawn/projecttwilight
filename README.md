@@ -3,7 +3,7 @@
 some roblox script thing, lol
 
 # loadstring
-```placeholder```
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/kprjcts/projecttwilight/refs/heads/main/script.lua"))()```
 
 # supported games
 - [sharkbite 2](https://www.roblox.com/games/8908228901/)
