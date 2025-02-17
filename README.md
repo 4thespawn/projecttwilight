@@ -7,8 +7,8 @@ some roblox script thing, lol
 - [boulder buddies](https://www.roblox.com/games/19006647835/)
 
 # created with
-- roblox studio
-- rd2glory's gui to lua plugin
+- [roblox studio](https://www.roblox.com/games/19006647835/)
+- [rd2glory's gui to lua plugin](https://create.roblox.com/store/asset/10970044063/)
   
 # tested with
 - [solara](https://getsolara.dev/)
