@@ -2174,18 +2174,18 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function OZRB_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.1home.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_1home"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function SKHQC_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.1home.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_1home"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2194,14 +2194,14 @@ local function OZRB_fake_script() -- Fake Script: StarterGui.project twilight.si
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-	
+
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-	
+
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -2212,32 +2212,32 @@ local function OZRB_fake_script() -- Fake Script: StarterGui.project twilight.si
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-	
+
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-	
+
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-	
+
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-	
-	
+
+
 end
-local function JKHVJ_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.0hide.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_0hide"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function SZMBVZI_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.0hide.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_0hide"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2245,48 +2245,48 @@ local function JKHVJ_fake_script() -- Fake Script: StarterGui.project twilight.s
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local blur = game.Lighting:WaitForChild("Blur")
-	
+
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-	
+
 	frame.Position = UDim2.new(1.08, 0, 0.14, 0)
-	
+
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(1.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		blur.Enabled = false
 	end)
-	
-	
-	
+
+
+
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-	
+
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-	
+
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-	
+
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-	
-	
+
+
 end
-local function WSRJT_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.2commands.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_2commands"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function WEJLD_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.2commands.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_2commands"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2295,14 +2295,14 @@ local function WSRJT_fake_script() -- Fake Script: StarterGui.project twilight.s
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-	
+
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-	
+
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -2313,32 +2313,32 @@ local function WSRJT_fake_script() -- Fake Script: StarterGui.project twilight.s
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-	
+
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-	
+
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-	
+
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-	
-	
+
+
 end
-local function KRPHHJ_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.2commands.notification.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_notification"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function HYXGK_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.2commands.notification.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_notification"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local image = script.Parent
 	local supportedgames = {86392224761834,19006647835,8908228901}
@@ -2346,9 +2346,9 @@ local function KRPHHJ_fake_script() -- Fake Script: StarterGui.project twilight.
 	local frame = image.Parent.Parent.Parent.uppermenu.commands
 	local scrollingframe = frame.universal
 	local topbar = frame.topbar
-	
+
 	for _, id in supportedgames do
-	    if gameid == id then
+		if gameid == id then
 			image.Visible = true
 			frame.gamespecific:FindFirstChild(tostring(gameid)).Visible = true
 			break
@@ -2358,30 +2358,30 @@ local function KRPHHJ_fake_script() -- Fake Script: StarterGui.project twilight.
 			scrollingframe.Size = UDim2.new(1, 0, 1, 0)
 			scrollingframe.Position = UDim2.new(0, 0, 0, 0)
 			break
-	    end
+		end
 	end
-	
+
 	local parentButton = image.Parent
 	if parentButton:IsA("ImageButton") then
-	    parentButton.MouseButton1Click:Connect(function()
-	        image.Visible = false
-	    end)
+		parentButton.MouseButton1Click:Connect(function()
+			image.Visible = false
+		end)
 	end
-	
-	
+
+
 end
-local function ESNITU_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.3info.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_3info"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function PPCGT_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.3info.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_3info"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2390,14 +2390,14 @@ local function ESNITU_fake_script() -- Fake Script: StarterGui.project twilight.
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-	
+
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-	
+
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -2408,51 +2408,51 @@ local function ESNITU_fake_script() -- Fake Script: StarterGui.project twilight.
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-	
+
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-	
+
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-	
+
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-	
-	
+
+
 end
-local function FGSM_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.tween
-    local script = Instance.new("LocalScript")
-    script.Name = "tween"
-    script.Parent = Converted["_sidemenu"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function LZTNQN_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.tween
+	local script = Instance.new("LocalScript")
+	script.Name = "tween"
+	script.Parent = Converted["_sidemenu"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local frame = script.Parent
-	
+
 	frame.Position = UDim2.new(1.938, 0, 0.041, 0)
-	
+
 	frame:TweenPosition(UDim2.new(0.938, 0, 0.041, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 1.5)
 end
-local function MGPQJI_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.5settings.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_5settings"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function WLPHMP_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.5settings.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_5settings"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2461,14 +2461,14 @@ local function MGPQJI_fake_script() -- Fake Script: StarterGui.project twilight.
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-	
+
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-	
+
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -2479,32 +2479,32 @@ local function MGPQJI_fake_script() -- Fake Script: StarterGui.project twilight.
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-	
+
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-	
+
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-	
+
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-	
-	
+
+
 end
-local function WIDCSE_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.4music.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_4music"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function HPXPA_fake_script() -- Fake Script: StarterGui.project twilight.sidemenu.4music.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_4music"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local TweenService = game:GetService("TweenService")
 	local frame = script.Parent.Parent.Parent.uppermenu
@@ -2513,14 +2513,14 @@ local function WIDCSE_fake_script() -- Fake Script: StarterGui.project twilight.
 	local normalSize = UDim2.new(0.771, 0, 0.079, 0)
 	local hoverSize = UDim2.new(0.885, 0, 0.091, 0)
 	local button = script.Parent
-	
+
 	local tweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-	
+
 	local function tweenButtonSize(size)
 		local tween = TweenService:Create(button, tweenInfo, { Size = size })
 		tween:Play()
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		frame:TweenPosition(UDim2.new(0.08, 0, 0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.5)
 		for _, child in ipairs(frame:GetChildren()) do
@@ -2531,38 +2531,38 @@ local function WIDCSE_fake_script() -- Fake Script: StarterGui.project twilight.
 		frame:FindFirstChild(str:sub(2)).Visible = true
 		blur.Enabled = true
 	end)
-	
+
 	local function onMouseEnter()
 		tweenButtonSize(hoverSize)
 	end
-	
+
 	local function onMouseLeave()
 		tweenButtonSize(normalSize)
 	end
-	
+
 	button.MouseEnter:Connect(onMouseEnter)
 	button.MouseLeave:Connect(onMouseLeave)
-	
-	
+
+
 end
-local function VFRNJP_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.2NoclipFrame.TextButton.Noclip
-    local script = Instance.new("LocalScript")
-    script.Name = "Noclip"
-    script.Parent = Converted["_TextButton"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function MAGK_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.2NoclipFrame.TextButton.Noclip
+	local script = Instance.new("LocalScript")
+	script.Name = "Noclip"
+	script.Parent = Converted["_TextButton"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game:GetService("Players").LocalPlayer
 	local button = script.Parent
 	local character = player.Character or player.CharacterAdded:Wait()
 	local noclip = false
-	
+
 	function toggleNoclip()
 		noclip = not noclip
 		for _, part in pairs(character:GetChildren()) do
@@ -2571,122 +2571,122 @@ local function VFRNJP_fake_script() -- Fake Script: StarterGui.project twilight.
 			end
 		end
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		toggleNoclip()
 	end)
 end
-local function KLSKZEK_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.3WalkSpeedFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton1"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function SHXNZT_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.3WalkSpeedFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton1"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		hum.WalkSpeed = tonumber(tb.Text)
 	end)
 end
-local function RAQD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.4JumpFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton2"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function OSUQV_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.4JumpFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton2"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		hum.JumpHeight = tonumber(tb.Text)
 	end)
 end
-local function UYNKA_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.5SetHealthFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton3"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function SGUB_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.5SetHealthFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton3"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		hum.Health = tonumber(tb.Text)
 	end)
 end
-local function QTAZZK_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.6GravityFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton4"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function SSEN_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.6GravityFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton4"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = tonumber(tb.Text)
 	end)
 end
-local function CTIUPH_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.7ViewFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton5"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function VDWGRKA_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.7ViewFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton5"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		local target = game.Players:FindFirstChild(tb.Text)
 		if target then
@@ -2700,44 +2700,44 @@ local function CTIUPH_fake_script() -- Fake Script: StarterGui.project twilight.
 		end
 	end)
 end
-local function QCIDK_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.0Title.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_0Title"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function OGGHMD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.0Title.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_0Title"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local text = script.Parent
 	local commands = text.Parent:GetChildren()
 	local count = #commands - 3
-	
+
 	text.Text = count .. " commands"
 end
-local function OIDP_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.8TeleportFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton6"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function EFLS_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.8TeleportFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton6"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		local target = game.Players:FindFirstChild(tb.Text)
 		if target then
@@ -2747,24 +2747,24 @@ local function OIDP_fake_script() -- Fake Script: StarterGui.project twilight.up
 		end
 	end)
 end
-local function RTKYV_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.1ESPFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton7"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function TZRGEY_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.1ESPFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton7"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-	
+
 	button.MouseButton1Click:Connect(function()
 		for _, player in game.Players:GetPlayers() do
 			local character = player.Character
@@ -2779,24 +2779,24 @@ local function RTKYV_fake_script() -- Fake Script: StarterGui.project twilight.u
 		end
 	end)
 end
-local function AGBYWBZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.1ESPFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton8"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function QAOS_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.universal.1ESPFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton8"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-	
+
 	button.MouseButton1Click:Connect(function()
 		for _, player in game.Players:GetPlayers() do
 			local character = player.Character
@@ -2809,7 +2809,7 @@ local function AGBYWBZ_fake_script() -- Fake Script: StarterGui.project twilight
 					highlight.OutlineColor = Color3.new(0, 0.607843, 0)
 					highlight.FillTransparency = 0.5
 					highlight.OutlineTransparency = 0 
-	
+
 					local billboardGui = Instance.new("BillboardGui")
 					billboardGui.Parent = character.Head
 					billboardGui.AlwaysOnTop = true
@@ -2817,7 +2817,7 @@ local function AGBYWBZ_fake_script() -- Fake Script: StarterGui.project twilight
 					billboardGui.Size = UDim2.new(5, 0, 2.5, 0)
 					billboardGui.StudsOffset = Vector3.new(0, 2, 0)
 					billboardGui.Name = "PlayerNameBillboard"
-	
+
 					local playerNameLabel = Instance.new("TextLabel")
 					playerNameLabel.Parent = billboardGui
 					playerNameLabel.BackgroundTransparency = 1
@@ -2833,25 +2833,25 @@ local function AGBYWBZ_fake_script() -- Fake Script: StarterGui.project twilight
 		end
 	end)
 end
-local function BYWO_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.topbar.universal.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_universal1"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function QCMWP_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.topbar.universal.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_universal1"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local button = script.Parent
 	local topbar = button.Parent
 	local white = topbar.white
 	local frame = topbar.Parent.universal
 	local ts = game:GetService("TweenService")
-	
+
 	button.MouseButton1Click:Connect(function()
 		white:TweenPosition(button.Position, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.25)
 		for _, child in ipairs(frame.Parent:GetChildren()) do
@@ -2862,25 +2862,25 @@ local function BYWO_fake_script() -- Fake Script: StarterGui.project twilight.up
 		frame.Visible = true
 	end)
 end
-local function MGDKS_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.topbar.gamespecific.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_gamespecific"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function APSMAA_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.topbar.gamespecific.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_gamespecific"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local button = script.Parent
 	local topbar = button.Parent
 	local white = topbar.white
 	local frame = topbar.Parent.gamespecific
 	local ts = game:GetService("TweenService")
-	
+
 	button.MouseButton1Click:Connect(function()
 		white:TweenPosition(button.Position, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.25)
 		for _, child in ipairs(frame.Parent:GetChildren()) do
@@ -2891,24 +2891,24 @@ local function MGDKS_fake_script() -- Fake Script: StarterGui.project twilight.u
 		frame.Visible = true
 	end)
 end
-local function EKAJRUH_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.2NoclipFrame.TextButton.Noclip
-    local script = Instance.new("LocalScript")
-    script.Name = "Noclip"
-    script.Parent = Converted["_TextButton9"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function SCZW_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.2NoclipFrame.TextButton.Noclip
+	local script = Instance.new("LocalScript")
+	script.Name = "Noclip"
+	script.Parent = Converted["_TextButton9"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game:GetService("Players").LocalPlayer
 	local button = script.Parent
 	local character = player.Character or player.CharacterAdded:Wait()
 	local noclip = false
-	
+
 	function toggleNoclip()
 		noclip = not noclip
 		for _, part in pairs(character:GetChildren()) do
@@ -2917,122 +2917,122 @@ local function EKAJRUH_fake_script() -- Fake Script: StarterGui.project twilight
 			end
 		end
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		toggleNoclip()
 	end)
 end
-local function NTIGSMD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.3WalkSpeedFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton10"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function ROCMESS_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.3WalkSpeedFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton10"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		hum.WalkSpeed = tonumber(tb.Text)
 	end)
 end
-local function MMAA_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.4JumpFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton11"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function IPDO_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.4JumpFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton11"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		hum.JumpHeight = tonumber(tb.Text)
 	end)
 end
-local function RDUIMQ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.5SetHealthFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton12"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function BSAYFB_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.5SetHealthFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton12"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		hum.Health = tonumber(tb.Text)
 	end)
 end
-local function RETD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.6GravityFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton13"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function SIAIJU_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.6GravityFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton13"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = tonumber(tb.Text)
 	end)
 end
-local function BGVBRJJ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.7ViewFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton14"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function MDVI_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.7ViewFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton14"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		local target = game.Players:FindFirstChild(tb.Text)
 		if target then
@@ -3046,25 +3046,25 @@ local function BGVBRJJ_fake_script() -- Fake Script: StarterGui.project twilight
 		end
 	end)
 end
-local function XBFO_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.8TeleportFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton15"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function SPVVSFB_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.8TeleportFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton15"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		local target = game.Players:FindFirstChild(tb.Text)
 		if target then
@@ -3074,44 +3074,44 @@ local function XBFO_fake_script() -- Fake Script: StarterGui.project twilight.up
 		end
 	end)
 end
-local function LUSRAU_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.0Title.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_0Title1"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function IJUD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.0Title.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_0Title1"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local text = script.Parent
 	local commands = text.Parent:GetChildren()
 	local count = #commands - 3
 	local gameInfo = game.MarketplaceService:GetProductInfo(tonumber(script.Parent.Parent.Name), Enum.InfoType.Asset)
-	
+
 	text.Text = count .. " commands for " .. gameInfo.Name
 end
-local function QYYL_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.1ESPFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton16"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function EWCA_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.1ESPFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton16"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-	
+
 	button.MouseButton1Click:Connect(function()
 		for _, player in game.Players:GetPlayers() do
 			local character = player.Character
@@ -3126,24 +3126,24 @@ local function QYYL_fake_script() -- Fake Script: StarterGui.project twilight.up
 		end
 	end)
 end
-local function HASYZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.1ESPFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton17"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function AVELF_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.86392224761834.1ESPFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton17"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-	
+
 	button.MouseButton1Click:Connect(function()
 		for _, player in game.Players:GetPlayers() do
 			local character = player.Character
@@ -3156,7 +3156,7 @@ local function HASYZ_fake_script() -- Fake Script: StarterGui.project twilight.u
 					highlight.OutlineColor = Color3.new(0, 0.607843, 0)
 					highlight.FillTransparency = 0.5
 					highlight.OutlineTransparency = 0 
-	
+
 					local billboardGui = Instance.new("BillboardGui")
 					billboardGui.Parent = character.Head
 					billboardGui.AlwaysOnTop = true
@@ -3164,7 +3164,7 @@ local function HASYZ_fake_script() -- Fake Script: StarterGui.project twilight.u
 					billboardGui.Size = UDim2.new(5, 0, 2.5, 0)
 					billboardGui.StudsOffset = Vector3.new(0, 2, 0)
 					billboardGui.Name = "PlayerNameBillboard"
-	
+
 					local playerNameLabel = Instance.new("TextLabel")
 					playerNameLabel.Parent = billboardGui
 					playerNameLabel.BackgroundTransparency = 1
@@ -3180,44 +3180,44 @@ local function HASYZ_fake_script() -- Fake Script: StarterGui.project twilight.u
 		end
 	end)
 end
-local function UVBKKM_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.8908228901.0Title.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_0Title2"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function ITPIEP_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.8908228901.0Title.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_0Title2"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local text = script.Parent
 	local commands = text.Parent:GetChildren()
 	local count = #commands - 3
 	local gameInfo = game.MarketplaceService:GetProductInfo(tonumber(script.Parent.Parent.Name), Enum.InfoType.Asset)
-	
+
 	text.Text = count .. " commands for " .. gameInfo.Name
 end
-local function LWRB_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.8908228901.1SharkESPFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton18"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function BSZZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.8908228901.1SharkESPFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton18"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-	
+
 	button.MouseButton1Click:Connect(function()
 		for _, shark in workspace:WaitForChild("Sharks"):GetChildren() do
 			local highlight = shark:FindFirstChildOfClass("Highlight")
@@ -3232,98 +3232,99 @@ local function LWRB_fake_script() -- Fake Script: StarterGui.project twilight.up
 		end
 	end)
 end
-local function ZXFQWAN_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.8908228901.1SharkESPFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton19"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function EFCEC_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.8908228901.1SharkESPFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton19"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character or player.CharacterAdded:Wait()
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
-	
+
 	button.MouseButton1Click:Connect(function()
 		for _, shark in workspace:WaitForChild("Sharks"):GetChildren() do
 			local highlight = shark:FindFirstChildOfClass("Highlight")
-				if not highlight then
-					highlight = Instance.new("Highlight")
-					highlight.Parent = shark
-					highlight.FillColor = Color3.new(0, 1, 0)
-					highlight.OutlineColor = Color3.new(0, 0.607843, 0)
-					highlight.FillTransparency = 0.5
-					highlight.OutlineTransparency = 0 
-	
-					local billboardGui = Instance.new("BillboardGui")
-					billboardGui.Parent = shark.Engine
-					billboardGui.AlwaysOnTop = true
-					billboardGui.Adornee = shark.Engine
-					billboardGui.Size = UDim2.new(5, 0, 2.5, 0)
-					billboardGui.StudsOffset = Vector3.new(0, 2, 0)
-					billboardGui.Name = "PlayerNameBillboard"
-	
-					local playerNameLabel = Instance.new("TextLabel")
-					playerNameLabel.Parent = billboardGui
-					playerNameLabel.BackgroundTransparency = 1
-					playerNameLabel.Size = UDim2.new(1, 0, 1, 0)
-					playerNameLabel.Position = UDim2.new(0, 0, 0, 0)
-					playerNameLabel.Font = Enum.Font.FredokaOne
-					playerNameLabel.Text = player.DisplayName .. " [SHARK]"
-					playerNameLabel.TextStrokeTransparency = 0
-					playerNameLabel.TextColor3 = Color3.new(1, 1, 1)
-					playerNameLabel.TextScaled = true
-				end
-	end
+			if not highlight then
+				highlight = Instance.new("Highlight")
+				highlight.Parent = shark
+				highlight.FillColor = Color3.new(0, 1, 0)
+				highlight.OutlineColor = Color3.new(0, 0.607843, 0)
+				highlight.FillTransparency = 0.5
+				highlight.OutlineTransparency = 0 
+
+				local billboardGui = Instance.new("BillboardGui")
+				billboardGui.Parent = shark.Engine
+				billboardGui.AlwaysOnTop = true
+				billboardGui.Adornee = shark.Engine
+				billboardGui.Size = UDim2.new(5, 0, 2.5, 0)
+				billboardGui.StudsOffset = Vector3.new(0, 2, 0)
+				billboardGui.Name = "PlayerNameBillboard"
+
+				local playerNameLabel = Instance.new("TextLabel")
+				playerNameLabel.Parent = billboardGui
+				playerNameLabel.BackgroundTransparency = 1
+				playerNameLabel.Size = UDim2.new(1, 0, 1, 0)
+				playerNameLabel.Position = UDim2.new(0, 0, 0, 0)
+				playerNameLabel.Font = Enum.Font.FredokaOne
+				playerNameLabel.Text = player.DisplayName .. " [SHARK]"
+				playerNameLabel.TextStrokeTransparency = 0
+				playerNameLabel.TextColor3 = Color3.new(1, 1, 1)
+				playerNameLabel.TextScaled = true
+			end
+		end
+	end)
 end
-local function VAOR_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.6GravityFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton20"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function IWMSITW_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.6GravityFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton20"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = tonumber(tb.Text)
 	end)
 end
-local function JMOZGG_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.7ViewFrame.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton21"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function KJZQBJ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.7ViewFrame.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton21"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local char = player.Character
 	local hum = char:WaitForChild("Humanoid")
 	local button = script.Parent
 	local tb = button.Parent.TextBox
-	
+
 	button.MouseButton1Click:Connect(function()
 		local target = game.Players:FindFirstChild(tb.Text)
 		if target then
@@ -3337,170 +3338,170 @@ local function JMOZGG_fake_script() -- Fake Script: StarterGui.project twilight.
 		end
 	end)
 end
-local function FZDLR_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.0Title.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_0Title3"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function KMMZUWC_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.commands.gamespecific.19006647835.0Title.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_0Title3"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local text = script.Parent
 	local commands = text.Parent:GetChildren()
 	local count = #commands - 3
 	local gameInfo = game.MarketplaceService:GetProductInfo(tonumber(script.Parent.Parent.Name), Enum.InfoType.Asset)
-	
+
 	text.Text = count .. " commands for " .. gameInfo.Name
 end
-local function PDUXGD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.0title.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_0title"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function CNJBPVR_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.0title.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_0title"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local text = script.Parent
 	local settingschildren = text.Parent:GetChildren()
 	local count = #settingschildren - 3
-	
+
 	text.Text = count .. " settings"
 end
-local function DDRNRUQ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.5blursize.X-Line.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_X-Line"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function AZRWS_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.5blursize.X-Line.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_X-Line"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local UIS = game:GetService("UserInputService")
 	local percentage = 24
 	local Dragging = false
 	local blur = game.Lighting:WaitForChild("Blur")
-	
+
 	script.Parent.TextButton.MouseButton1Down:Connect(function()
 		Dragging = true
 	end)
-	
+
 	function ChangeToValue(Percent)
 		local Value = math.floor(Percent*100)
 		return Value
 	end
-	
+
 	UIS.InputChanged:Connect(function()
 		if Dragging then
 			local MousePos = UIS:GetMouseLocation()+Vector2.new(0,-36)
 			local RelPos = MousePos-script.Parent.AbsolutePosition
 			local Percent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
-			
+
 			script.Parent.TextButton.Position = UDim2.new(Percent,0,script.Parent.TextButton.Position.Y.Scale,0)
 			local FinalValue = ChangeToValue(Percent)
-			
+
 			percentage = FinalValue
 			blur.Size = FinalValue
 			script.Parent.TextLabel.Text = "blur size (" .. FinalValue .. ")"
 		end
 	end)
-	
+
 	UIS.InputEnded:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			Dragging = false
 		end
 	end)
 end
-local function TXMGMKY_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.3rejoin.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_3rejoin"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function FIPEXOO_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.3rejoin.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_3rejoin"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local button = script.Parent
 	local placeid = game.PlaceId
 	local player = game.Players.LocalPlayer
 	local tps = game:GetService("TeleportService")
-	
+
 	button.MouseButton1Click:Connect(function()
 		tps:Teleport(placeid, player)
 	end)
 end
-local function UTGYVQE_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.2reload.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_2reload"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function IAYC_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.2reload.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_2reload"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
 	local button = script.Parent
-	
+
 	button.MouseButton1Click:Connect(function()
 		gui:Clone().Parent = gui.Parent
 		game.Lighting:WaitForChild("Blur"):Destroy()
 		gui:Destroy()
 	end)
 end
-local function QZWMZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.1unload.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_1unload"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function JIRDB_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.settings.ScrollingFrame.1unload.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_1unload"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
 	local button = script.Parent
-	
+
 	button.MouseButton1Click:Connect(function()
 		game.Lighting:WaitForChild("Blur"):Destroy()
 		gui:Destroy()
 	end)
 end
-local function URLNM_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.info.playerinfohandler
-    local script = Instance.new("LocalScript")
-    script.Name = "playerinfohandler"
-    script.Parent = Converted["_info"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function ORGMZLJ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.info.playerinfohandler
+	local script = Instance.new("LocalScript")
+	script.Name = "playerinfohandler"
+	script.Parent = Converted["_info"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local player = game.Players.LocalPlayer
 	local frame = script.Parent
@@ -3510,17 +3511,17 @@ local function URLNM_fake_script() -- Fake Script: StarterGui.project twilight.u
 	local userid = frame.userid
 	local role = frame.role
 	local players = game:GetService("Players")
-	
+
 	image.Image = players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
 	name.Text = "display name: " .. player.DisplayName
 	username.Text = "username: @" .. player.Name
 	userid.Text = "user id: " .. player.UserId
 	role.Text = "role: guest"
-	
+
 	if player:IsFriendsWith(1109975917) then
 		role.Text = "role: friend"
 	end
-	
+
 	if player.UserId == 1109975917 then --kris
 		role.Text = "role: owner"
 		role.TextColor3 = Color3.fromHex("B200FF")
@@ -3535,18 +3536,18 @@ local function URLNM_fake_script() -- Fake Script: StarterGui.project twilight.u
 		role.TextColor3 = Color3.fromHex("68A4F7")
 	end
 end
-local function CBRND_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.info.gameinfohandler
-    local script = Instance.new("LocalScript")
-    script.Name = "gameinfohandler"
-    script.Parent = Converted["_info"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function VJVPYF_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.info.gameinfohandler
+	local script = Instance.new("LocalScript")
+	script.Name = "gameinfohandler"
+	script.Parent = Converted["_info"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local frame = script.Parent
 	local image = frame.icon
@@ -3561,7 +3562,7 @@ local function CBRND_fake_script() -- Fake Script: StarterGui.project twilight.u
 	local gameInfo = marketplace:GetProductInfo(game.PlaceId, Enum.InfoType.Asset)
 	local creatorid = game.CreatorId
 	local gameversion = frame.gameversion
-	
+
 	if game.PrivateServerId ~= "" then
 		if game.PrivateServerOwnerId ~= 0 then
 			local psownerInfo = userservice:GetUserInfosByUserIdsAsync({ game.PrivateServerOwnerId })
@@ -3572,11 +3573,11 @@ local function CBRND_fake_script() -- Fake Script: StarterGui.project twilight.u
 	else
 		servertype.Text = "server type: public server"
 	end
-	
+
 	if UserSettings().GameSettings:InStudioMode() == true then
 		servertype.Text = "server type: studio server"
 	end
-	
+
 	if game.CreatorType == Enum.CreatorType.User then
 		local creatorInfo = userservice:GetUserInfosByUserIdsAsync({ creatorid })
 		if creatorInfo and creatorInfo[1] then
@@ -3588,24 +3589,24 @@ local function CBRND_fake_script() -- Fake Script: StarterGui.project twilight.u
 		local groupInfo = groups:GetGroupInfoAsync(creatorid)
 		creator.Text = "game creator: '" .. groupInfo.Name .. "'"
 	end
-	
+
 	name.Text = "game name: " .. gameInfo.Name
 	placeid.Text = "place id: " .. game.PlaceId
 	image.Image = "rbxassetid://" .. gameInfo.IconImageAssetId
 	gameversion.Text = "game version: v" .. game.PlaceVersion
 end
-local function BJFBWCZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.handler
-    local script = Instance.new("LocalScript")
-    script.Name = "handler"
-    script.Parent = Converted["_uppermenu"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function VHVT_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.handler
+	local script = Instance.new("LocalScript")
+	script.Name = "handler"
+	script.Parent = Converted["_uppermenu"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local blur = Instance.new("BlurEffect")
 	local frame = script.Parent
@@ -3615,47 +3616,47 @@ local function BJFBWCZ_fake_script() -- Fake Script: StarterGui.project twilight
 	local music = frame.music
 	local settings = frame.settings
 	local site = home.site
-	
+
 	game:GetService("RunService").Heartbeat:Connect(function()
 		site.Text = "https://github.com/kprjcts/projecttwilight"
 	end)
-	
+
 	blur.Parent = game.Lighting
 	blur.Enabled = false
-	
+
 	script.Parent:SetAttribute("hi", "hi")
 end
-local function XTPRQF_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.0Title.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_0Title4"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function PGQY_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.0Title.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_0Title4"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local text = script.Parent
 	local commands = text.Parent:GetChildren()
 	local count = #commands - 4
-	
+
 	text.Text = count .. " sounds"
 end
-local function HDYDPD_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.2RainingTacos.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton23"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function EMXQCZ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.2RainingTacos.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton23"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local button = script.Parent
 	local textlabel = button.Parent.title
@@ -3664,18 +3665,18 @@ local function HDYDPD_fake_script() -- Fake Script: StarterGui.project twilight.
 	local mps = game:GetService("MarketplaceService")
 	local soundid = 142376088
 	local testsound = Instance.new("Sound")
-	
+
 	testsound.Parent = button
 	testsound.SoundId = "rbxassetid://" .. soundid
-	
+
 	testsound.Loaded:Connect(function()
 		button.Text = "play | duration: " .. math.round(testsound.TimeLength) .. "s"
 	end)
-	
+
 	local info = mps:GetProductInfo(soundid)
-	
+
 	textlabel.Text = "'" .. info.Name .. "'"
-	
+
 	button.MouseButton1Click:Connect(function()
 		sound.SoundId = "rbxassetid://" .. soundid
 		sound:Play()
@@ -3683,41 +3684,41 @@ local function HDYDPD_fake_script() -- Fake Script: StarterGui.project twilight.
 		soundframe.title.Text = textlabel.Text
 	end)
 end
-local function XLKCB_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.1Stop.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton24"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function KVGFFN_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.1Stop.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton24"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local button = script.Parent
 	local sframe = button.Parent.Parent
 	local soundframe = sframe.Parent.Parent.Parent.soundmenu
 	local sound = soundframe:WaitForChild("currentsound")
-	
+
 	button.MouseButton1Click:Connect(function()
 		sound:Stop()
 		soundframe.Visible = false
 	end)
 end
-local function FXRY_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.3RelaxedScene.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton25"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function BUSQ_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.3RelaxedScene.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton25"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local button = script.Parent
 	local textlabel = button.Parent.title
@@ -3726,18 +3727,18 @@ local function FXRY_fake_script() -- Fake Script: StarterGui.project twilight.up
 	local mps = game:GetService("MarketplaceService")
 	local soundid = 1848354536
 	local testsound = Instance.new("Sound")
-	
+
 	testsound.Parent = button
 	testsound.SoundId = "rbxassetid://" .. soundid
-	
+
 	testsound.Loaded:Connect(function()
 		button.Text = "play | duration: " .. math.round(testsound.TimeLength) .. "s"
 	end)
-	
+
 	local info = mps:GetProductInfo(soundid)
-	
+
 	textlabel.Text = "'" .. info.Name .. "'"
-	
+
 	button.MouseButton1Click:Connect(function()
 		sound.SoundId = "rbxassetid://" .. soundid
 		sound:Play()
@@ -3745,18 +3746,18 @@ local function FXRY_fake_script() -- Fake Script: StarterGui.project twilight.up
 		soundframe.title.Text = textlabel.Text
 	end)
 end
-local function ZBGMSMI_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.4AllDropping8BitBeats.TextButton.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_TextButton26"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function HWXF_fake_script() -- Fake Script: StarterGui.project twilight.uppermenu.music.ScrollingFrame.4AllDropping8BitBeats.TextButton.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_TextButton26"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local button = script.Parent
 	local textlabel = button.Parent.title
@@ -3765,18 +3766,18 @@ local function ZBGMSMI_fake_script() -- Fake Script: StarterGui.project twilight
 	local mps = game:GetService("MarketplaceService")
 	local soundid = 9048375035
 	local testsound = Instance.new("Sound")
-	
+
 	testsound.Parent = button
 	testsound.SoundId = "rbxassetid://" .. soundid
-	
+
 	testsound.Loaded:Connect(function()
 		button.Text = "play | duration: " .. math.round(testsound.TimeLength) .. "s"
 	end)
-	
+
 	local info = mps:GetProductInfo(soundid)
-	
+
 	textlabel.Text = "'" .. info.Name .. "'"
-	
+
 	button.MouseButton1Click:Connect(function()
 		sound.SoundId = "rbxassetid://" .. soundid
 		sound:Play()
@@ -3784,91 +3785,91 @@ local function ZBGMSMI_fake_script() -- Fake Script: StarterGui.project twilight
 		soundframe.title.Text = textlabel.Text
 	end)
 end
-local function QAUD_fake_script() -- Fake Script: StarterGui.project twilight.soundmenu.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_soundmenu"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function TKBLWF_fake_script() -- Fake Script: StarterGui.project twilight.soundmenu.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_soundmenu"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local currentsound = Instance.new("Sound")
 	currentsound.Name = "currentsound"
 	currentsound.Parent = script.Parent
 	currentsound.Looped = true
 	currentsound.Volume = 0.5
-	
+
 	while true do
 		script.Parent.duration.Text = math.round(currentsound.TimePosition) .. "s / " .. math.round(currentsound.TimeLength) .. "s"
 		task.wait(1)
 	end
 end
-local function MDKIB_fake_script() -- Fake Script: StarterGui.project twilight.soundmenu.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_soundmenu"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
+local function WNKKRH_fake_script() -- Fake Script: StarterGui.project twilight.soundmenu.LocalScript
+	local script = Instance.new("LocalScript")
+	script.Name = "LocalScript"
+	script.Parent = Converted["_soundmenu"]
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	--// Services
 	local Players = game:GetService('Players')
 	local UIS = game:GetService("UserInputService")
-	
+
 	--// Variables
 	local UI = script.Parent
-	
+
 	local Player = Players.LocalPlayer
 	local Mouse = Player:GetMouse()
-	
+
 	local Hovered = false
 	local Holding = false
 	local MoveCon = nil
-	
+
 	local InitialX, InitialY, UIInitialPos
-	
+
 	--// Functions
-	
+
 	local function Drag()
 		if Holding == false then MoveCon:Disconnect(); return end
 		local distanceMovedX = InitialX - Mouse.X
 		local distanceMovedY = InitialY - Mouse.Y
-	
+
 		UI.Position = UIInitialPos - UDim2.new(0, distanceMovedX, 0, distanceMovedY)
 	end
-	
+
 	--// Connections
-	
+
 	UI.MouseEnter:Connect(function()
 		Hovered = true
 	end)
-	
+
 	UI.MouseLeave:Connect(function()
 		Hovered = false
 	end)
-	
+
 	UIS.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			Holding = Hovered
 			if Holding then
 				InitialX, InitialY = Mouse.X, Mouse.Y
 				UIInitialPos = UI.Position
-	
+
 				MoveCon = Mouse.Move:Connect(Drag)
 			end
 		end
 	end)
-	
+
 	UIS.InputEnded:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			Holding = false
@@ -3876,54 +3877,54 @@ local function MDKIB_fake_script() -- Fake Script: StarterGui.project twilight.s
 	end)
 end
 
-coroutine.wrap(OZRB_fake_script)()
-coroutine.wrap(JKHVJ_fake_script)()
-coroutine.wrap(WSRJT_fake_script)()
-coroutine.wrap(KRPHHJ_fake_script)()
-coroutine.wrap(ESNITU_fake_script)()
-coroutine.wrap(FGSM_fake_script)()
-coroutine.wrap(MGPQJI_fake_script)()
-coroutine.wrap(WIDCSE_fake_script)()
-coroutine.wrap(VFRNJP_fake_script)()
-coroutine.wrap(KLSKZEK_fake_script)()
-coroutine.wrap(RAQD_fake_script)()
-coroutine.wrap(UYNKA_fake_script)()
-coroutine.wrap(QTAZZK_fake_script)()
-coroutine.wrap(CTIUPH_fake_script)()
-coroutine.wrap(QCIDK_fake_script)()
-coroutine.wrap(OIDP_fake_script)()
-coroutine.wrap(RTKYV_fake_script)()
-coroutine.wrap(AGBYWBZ_fake_script)()
-coroutine.wrap(BYWO_fake_script)()
-coroutine.wrap(MGDKS_fake_script)()
-coroutine.wrap(EKAJRUH_fake_script)()
-coroutine.wrap(NTIGSMD_fake_script)()
-coroutine.wrap(MMAA_fake_script)()
-coroutine.wrap(RDUIMQ_fake_script)()
-coroutine.wrap(RETD_fake_script)()
-coroutine.wrap(BGVBRJJ_fake_script)()
-coroutine.wrap(XBFO_fake_script)()
-coroutine.wrap(LUSRAU_fake_script)()
-coroutine.wrap(QYYL_fake_script)()
-coroutine.wrap(HASYZ_fake_script)()
-coroutine.wrap(UVBKKM_fake_script)()
-coroutine.wrap(LWRB_fake_script)()
-coroutine.wrap(ZXFQWAN_fake_script)()
-coroutine.wrap(VAOR_fake_script)()
-coroutine.wrap(JMOZGG_fake_script)()
-coroutine.wrap(FZDLR_fake_script)()
-coroutine.wrap(PDUXGD_fake_script)()
-coroutine.wrap(DDRNRUQ_fake_script)()
-coroutine.wrap(TXMGMKY_fake_script)()
-coroutine.wrap(UTGYVQE_fake_script)()
-coroutine.wrap(QZWMZ_fake_script)()
-coroutine.wrap(URLNM_fake_script)()
-coroutine.wrap(CBRND_fake_script)()
-coroutine.wrap(BJFBWCZ_fake_script)()
-coroutine.wrap(XTPRQF_fake_script)()
-coroutine.wrap(HDYDPD_fake_script)()
-coroutine.wrap(XLKCB_fake_script)()
-coroutine.wrap(FXRY_fake_script)()
-coroutine.wrap(ZBGMSMI_fake_script)()
-coroutine.wrap(QAUD_fake_script)()
-coroutine.wrap(MDKIB_fake_script)()
+coroutine.wrap(SKHQC_fake_script)()
+coroutine.wrap(SZMBVZI_fake_script)()
+coroutine.wrap(WEJLD_fake_script)()
+coroutine.wrap(HYXGK_fake_script)()
+coroutine.wrap(PPCGT_fake_script)()
+coroutine.wrap(LZTNQN_fake_script)()
+coroutine.wrap(WLPHMP_fake_script)()
+coroutine.wrap(HPXPA_fake_script)()
+coroutine.wrap(MAGK_fake_script)()
+coroutine.wrap(SHXNZT_fake_script)()
+coroutine.wrap(OSUQV_fake_script)()
+coroutine.wrap(SGUB_fake_script)()
+coroutine.wrap(SSEN_fake_script)()
+coroutine.wrap(VDWGRKA_fake_script)()
+coroutine.wrap(OGGHMD_fake_script)()
+coroutine.wrap(EFLS_fake_script)()
+coroutine.wrap(TZRGEY_fake_script)()
+coroutine.wrap(QAOS_fake_script)()
+coroutine.wrap(QCMWP_fake_script)()
+coroutine.wrap(APSMAA_fake_script)()
+coroutine.wrap(SCZW_fake_script)()
+coroutine.wrap(ROCMESS_fake_script)()
+coroutine.wrap(IPDO_fake_script)()
+coroutine.wrap(BSAYFB_fake_script)()
+coroutine.wrap(SIAIJU_fake_script)()
+coroutine.wrap(MDVI_fake_script)()
+coroutine.wrap(SPVVSFB_fake_script)()
+coroutine.wrap(IJUD_fake_script)()
+coroutine.wrap(EWCA_fake_script)()
+coroutine.wrap(AVELF_fake_script)()
+coroutine.wrap(ITPIEP_fake_script)()
+coroutine.wrap(BSZZ_fake_script)()
+coroutine.wrap(EFCEC_fake_script)()
+coroutine.wrap(IWMSITW_fake_script)()
+coroutine.wrap(KJZQBJ_fake_script)()
+coroutine.wrap(KMMZUWC_fake_script)()
+coroutine.wrap(CNJBPVR_fake_script)()
+coroutine.wrap(AZRWS_fake_script)()
+coroutine.wrap(FIPEXOO_fake_script)()
+coroutine.wrap(IAYC_fake_script)()
+coroutine.wrap(JIRDB_fake_script)()
+coroutine.wrap(ORGMZLJ_fake_script)()
+coroutine.wrap(VJVPYF_fake_script)()
+coroutine.wrap(VHVT_fake_script)()
+coroutine.wrap(PGQY_fake_script)()
+coroutine.wrap(EMXQCZ_fake_script)()
+coroutine.wrap(KVGFFN_fake_script)()
+coroutine.wrap(BUSQ_fake_script)()
+coroutine.wrap(HWXF_fake_script)()
+coroutine.wrap(TKBLWF_fake_script)()
+coroutine.wrap(WNKKRH_fake_script)()
