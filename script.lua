@@ -288,7 +288,6 @@ Converted["_UICorner"].CornerRadius = UDim.new(1, 0)
 Converted["_UICorner"].Parent = Converted["_sidemenu"]
 
 Converted["_1home"].Image = "rbxassetid://97890727396723"
-Converted["_1home"].ImageContent = Content
 Converted["_1home"].ImageTransparency = 0.10000000149011612
 Converted["_1home"].PressedImage = "rbxassetid://91532848925746"
 Converted["_1home"].ScaleType = Enum.ScaleType.Fit
@@ -308,7 +307,6 @@ Converted["_UIAspectRatioConstraint"].AspectRatio = 0.9918115139007568
 Converted["_UIAspectRatioConstraint"].Parent = Converted["_1home"]
 
 Converted["_0hide"].Image = "rbxassetid://92878818522368"
-Converted["_0hide"].ImageContent = Content
 Converted["_0hide"].ImageTransparency = 0.10000000149011612
 Converted["_0hide"].PressedImage = "rbxassetid://131463227652553"
 Converted["_0hide"].ScaleType = Enum.ScaleType.Fit
@@ -328,7 +326,6 @@ Converted["_UIAspectRatioConstraint1"].AspectRatio = 0.9918115139007568
 Converted["_UIAspectRatioConstraint1"].Parent = Converted["_0hide"]
 
 Converted["_2commands"].Image = "rbxassetid://127360670614545"
-Converted["_2commands"].ImageContent = Content
 Converted["_2commands"].ImageTransparency = 0.10000000149011612
 Converted["_2commands"].PressedImage = "rbxassetid://101148330349424"
 Converted["_2commands"].ScaleType = Enum.ScaleType.Fit
@@ -348,7 +345,6 @@ Converted["_UIAspectRatioConstraint2"].AspectRatio = 0.9918115139007568
 Converted["_UIAspectRatioConstraint2"].Parent = Converted["_2commands"]
 
 Converted["_notification"].Image = "rbxassetid://113956616983657"
-Converted["_notification"].ImageContent = Content
 Converted["_notification"].ScaleType = Enum.ScaleType.Fit
 Converted["_notification"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_notification"].BackgroundTransparency = 1
@@ -359,8 +355,7 @@ Converted["_notification"].Size = UDim2.new(0.652200639, 0, 0.652200639, 0)
 Converted["_notification"].Name = "notification"
 Converted["_notification"].Parent = Converted["_2commands"]
 
-Converted["_3info"].Image = "rbxassetid://112226266178047"
-Converted["_3info"].ImageContent = Content
+Converted["_3info"].Image = "rbxassetid://11222626617804"
 Converted["_3info"].ImageTransparency = 0.10000000149011612
 Converted["_3info"].PressedImage = "rbxassetid://113816669934273"
 Converted["_3info"].ScaleType = Enum.ScaleType.Fit
@@ -380,7 +375,6 @@ Converted["_UIAspectRatioConstraint3"].AspectRatio = 0.9918115139007568
 Converted["_UIAspectRatioConstraint3"].Parent = Converted["_3info"]
 
 Converted["_5settings"].Image = "rbxassetid://139920950702546"
-Converted["_5settings"].ImageContent = Content
 Converted["_5settings"].ImageTransparency = 0.10000000149011612
 Converted["_5settings"].PressedImage = "rbxassetid://104195483457630"
 Converted["_5settings"].ScaleType = Enum.ScaleType.Fit
@@ -400,7 +394,6 @@ Converted["_UIAspectRatioConstraint4"].AspectRatio = 0.9918115139007568
 Converted["_UIAspectRatioConstraint4"].Parent = Converted["_5settings"]
 
 Converted["_4music"].Image = "rbxassetid://76043324796816"
-Converted["_4music"].ImageContent = Content
 Converted["_4music"].ImageTransparency = 0.10000000149011612
 Converted["_4music"].PressedImage = "rbxassetid://136400439169658"
 Converted["_4music"].ScaleType = Enum.ScaleType.Fit
@@ -441,7 +434,6 @@ Converted["_home"].Name = "home"
 Converted["_home"].Parent = Converted["_uppermenu"]
 
 Converted["_logo"].Image = "rbxassetid://112708468131152"
-Converted["_logo"].ImageContent = Content
 Converted["_logo"].ScaleType = Enum.ScaleType.Fit
 Converted["_logo"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_logo"].BackgroundTransparency = 1
@@ -1889,7 +1881,6 @@ Converted["_info"].Name = "info"
 Converted["_info"].Parent = Converted["_uppermenu"]
 
 Converted["_avatar"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-Converted["_avatar"].ImageContent = Content
 Converted["_avatar"].ScaleType = Enum.ScaleType.Fit
 Converted["_avatar"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_avatar"].BackgroundTransparency = 1
@@ -1976,7 +1967,6 @@ Converted["_userid"].Name = "userid"
 Converted["_userid"].Parent = Converted["_info"]
 
 Converted["_icon"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-Converted["_icon"].ImageContent = Content
 Converted["_icon"].ScaleType = Enum.ScaleType.Fit
 Converted["_icon"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_icon"].BackgroundTransparency = 1
